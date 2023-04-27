@@ -8,7 +8,9 @@ import config from "./src/config/config.json";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://minhzung.github.io",
+  site: config.site.base_url
+    ? config.site.base_url
+    : "http://minhzung.github.io",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   integrations: [
@@ -22,6 +24,12 @@ export default defineConfig({
     image(),
     mdx(),
   ],
+  experimental: {
+    assets: true,
+  },
+  image: {
+    service: "astro/assets/services/sharp",
+  },
   markdown: {
     remarkPlugins: [],
     shikiConfig: {
