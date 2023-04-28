@@ -17,7 +17,7 @@ const {
 } = config.site;
 ---
 
-<a href="/" class="navbar-brand block">
+<a href="/" class="navbar-brand block font-bold text-2xl uppercase hover:text-3xl hover:text-green-700">
   {
     src || logo ? (
       <Image
@@ -36,5 +36,5 @@ const {
     ) : (
       title
     )
-  }
+  } {logo_text}
 </a>
