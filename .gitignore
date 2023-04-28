@@ -1,9 +1,12 @@
 # build output
 dist/
 .output/
+.github/
 
 # dependencies
 node_modules/
+.yarn/
+.vscode
 
 # logs
 npm-debug.log*
