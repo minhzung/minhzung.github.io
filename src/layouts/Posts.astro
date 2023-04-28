@@ -22,6 +22,7 @@ const { className, posts, fluid } = Astro.props;
               alt={post.data.title}
               width={i === 0 ? 925 : 445}
               height={i === 0 ? 475 : 230}
+              format='png'
             />
           </a>
         )}
@@ -45,6 +46,7 @@ const { className, posts, fluid } = Astro.props;
                       height={50}
                       width={50}
                       class="mr-2 h-6 w-6 rounded-full"
+                      format='png'
                     />
                   )}
                   <span>{author.data.title}</span>
