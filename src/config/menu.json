@@ -28,10 +28,6 @@
         {
           "name": "Elements",
           "url": "/elements"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
         }
       ]
     }
@@ -48,10 +44,6 @@
     {
       "name": "Elements",
       "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
     }
   ]
 }
