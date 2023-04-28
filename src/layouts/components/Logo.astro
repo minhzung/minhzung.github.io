@@ -1,6 +1,7 @@
 ---
 import { Image } from "@astrojs/image/components";
 import config from "@config/config.json";
+import mletter from '/images/mletter.svg'
 const { src } = Astro.props;
 const {
   logo,
@@ -17,24 +18,9 @@ const {
 } = config.site;
 ---
 
-<a href="/" class="navbar-brand block font-bold text-2xl hover:text-green-700">
-  {
-    src || logo ? (
-      <Image
-        width={logo_width.replace("px", "") * 2}
-        height={logo_height.replace("px", "") * 2}
-        src={src ? src : logo}
-        alt={title}
-        format='png'
-        style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
-        }}
-      />
-    ) : logo_text ? (
-      logo_text
-    ) : (
-      title
-    )
-  } {logo_text}
-</a>
+<div class="order-0 flex items-center">
+  <a href="/" class="navbar-brand group flex items-center">
+    <img class="w-16 mr-2 transition-transform hover:rotate-[10deg] hover:fill-cyan-700" src={mletter} alt={title}>
+    <span class="whitespace-nowrap font-bold text-2xl">Mind Chrono</span>
+  </a>
+</div>

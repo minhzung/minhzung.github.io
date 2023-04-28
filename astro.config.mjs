@@ -21,15 +21,11 @@ export default defineConfig({
         applyBaseStyles: false,
       },
     }),
-    image(),
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp'
+    }),
     mdx(),
   ],
-  experimental: {
-    assets: true,
-  },
-  image: {
-    service: "astro/assets/services/sharp",
-  },
   markdown: {
     remarkPlugins: [],
     shikiConfig: {

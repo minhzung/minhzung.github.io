@@ -5,8 +5,8 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "45",
+    "logo": "/images/mletter.svg",
+    "logo_width": "60",
     "logo_height": "30",
     "logo_text": "Mind Chrono"
   },

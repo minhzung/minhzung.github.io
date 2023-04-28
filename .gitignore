@@ -6,7 +6,8 @@ dist/
 # dependencies
 node_modules/
 .yarn/
-.vscode
+.vscode/
+.yarnrc.yml
 
 # logs
 npm-debug.log*
