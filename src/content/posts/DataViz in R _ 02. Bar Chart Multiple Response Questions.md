@@ -2,7 +2,7 @@
 
 author: Mindx
 date: 2023-04-23T01:00:00+07:00
-title: "DataViz in R | 02. Bar Chart Multiple Response Questions"
+title: "DataViz in R | 02. Bar Chart Multiple Responses"
 image: "/assets/02-Bar-chart-multi/output_9_0.png"
 postSlug: ""
 featured: false
@@ -13,7 +13,7 @@ tags:
 - learning
 
 ogImage: ""
-description: "The second bar chart with multiple response question"
+description: "The second bar chart with multiple response, type 1 simple"
 
 ---
 
