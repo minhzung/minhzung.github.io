@@ -17,12 +17,12 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Livvic:wght@300;400;700",
+      "primary": "Roboto Slab:wght@300;400;700",
       "primary_type": "sans-serif"
     },
     "font_size": {
-      "base": "16",
-      "scale": "1.250"
+      "base": "18",
+      "scale": "1.125"
     }
   }
 }
