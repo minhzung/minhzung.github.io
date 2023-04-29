@@ -1,6 +1,5 @@
 ---
-title: Mark Dinn
-image: /images/authors/mark-dinn.jpg
+title: Mindx
 description: this is meta description
 social:
   facebook: https://www.facebook.com/
