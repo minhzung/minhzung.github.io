@@ -73,7 +73,8 @@ gender_role <- data.frame(Resno = seq(1,7,1),
 gender_role
 ```
 
-<table class="dataframe not-prose">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe ">
 <caption>A data.frame: 7 × 3</caption>
 <thead>
 	<tr><th scope=col>Resno</th><th scope=col>Response</th><th scope=col>Percent</th></tr>
@@ -95,7 +96,8 @@ to the family income                             </td><td>84.7</td></tr>
 	<tr><td>7</td><td>In general, fathers are as well suited to
 look after their children as women                 </td><td>70.1</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 ```r
 #Quick plot to check whether our self-created data is correct

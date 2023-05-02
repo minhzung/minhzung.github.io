@@ -75,7 +75,8 @@ ipsos
 ```
 
 
-<table class="dataframe not-prose">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe ">
 <caption>A tibble: 16 × 2</caption>
 <thead>
 	<tr><th scope=col>Country</th><th scope=col>Percent</th></tr>
@@ -99,7 +100,8 @@ ipsos
 	<tr><td>South Korea  </td><td>18</td></tr>
 	<tr><td>China        </td><td> 9</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -115,7 +117,8 @@ ipsos <- ipsos %>%
     mutate(Country=fct_reorder(Country, Percent))
 ipsos
 ```
-<table class="dataframe not-prose">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe ">
 <caption>A tibble: 16 × 3</caption>
 <thead>
 	<tr><th scope=col>Country</th><th scope=col>Percent</th><th scope=col>Coulab</th></tr>
@@ -139,7 +142,8 @@ ipsos
 	<tr><td>South Korea  </td><td>18</td><td>South Korea 18  </td></tr>
 	<tr><td>China        </td><td> 9</td><td>China 9         </td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -178,7 +182,8 @@ bg_rect
 ```
 
 
-<table class="dataframe not-prose">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe ">
 <caption>A data.frame: 5 × 3</caption>
 <thead>
 	<tr><th scope=col>start</th><th scope=col>end</th><th scope=col>color</th></tr>
@@ -191,7 +196,8 @@ bg_rect
 	<tr><td>60</td><td> 80</td><td>#def5fc</td></tr>
 	<tr><td>80</td><td>100</td><td>#e8f7fc</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -368,7 +374,8 @@ ipsos
 ```
 
 
-<table class="dataframe not-prose">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe ">
 <caption>A tibble: 16 × 4</caption>
 <thead>
 	<tr><th scope=col>Country</th><th scope=col>Percent</th><th scope=col>Coulab</th><th scope=col>highlight_text</th></tr>
@@ -392,7 +399,8 @@ ipsos
 	<tr><td>South Korea  </td><td>18</td><td>South Korea 18  </td><td>plain</td></tr>
 	<tr><td>China        </td><td> 9</td><td>China 9         </td><td>plain</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 

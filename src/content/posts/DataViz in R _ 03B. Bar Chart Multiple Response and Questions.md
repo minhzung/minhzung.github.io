@@ -34,7 +34,8 @@ head(evs)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 6 × 8</caption>
 <thead>
 	<tr><th scope=col>v106</th><th scope=col>v159</th><th scope=col>v160</th><th scope=col>v161</th><th scope=col>v162</th><th scope=col>v163</th><th scope=col>v164</th><th scope=col>v165</th></tr>
@@ -48,7 +49,8 @@ head(evs)
 	<tr><td>-3</td><td>3</td><td>1</td><td>1</td><td>2</td><td>3</td><td>2</td><td>3</td></tr>
 	<tr><td> 2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -84,72 +86,31 @@ val_labels(evs)
 ```
 
 
-<dl>
-	<dt>$v106</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>roman catholic</dt><dd>1</dd><dt>protestant</dt><dd>2</dd><dt>free church/ non-conformist/ evangelical</dt><dd>3</dd><dt>jew</dt><dd>4</dd><dt>muslim</dt><dd>5</dd><dt>hindu</dt><dd>6</dd><dt>buddhist</dt><dd>7</dd><dt>orthodox</dt><dd>8</dd><dt>other</dt><dd>9</dd></dl>
-</dd>
-	<dt>$v159</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-	<dt>$v160</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-	<dt>$v161</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-	<dt>$v162</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-	<dt>$v163</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-	<dt>$v164</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-	<dt>$v165</dt>
-		<dd><style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>other missing</dt><dd>-5</dd><dt>question not asked</dt><dd>-4</dd><dt>not applicable</dt><dd>-3</dd><dt>no answer</dt><dd>-2</dd><dt>don't know</dt><dd>-1</dd><dt>agree strongly</dt><dd>1</dd><dt>agree</dt><dd>2</dd><dt>disagree</dt><dd>3</dd><dt>disagree strongly</dt><dd>4</dd></dl>
-</dd>
-</dl>
+<div class="dataframe">
+$v106
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 roman catholic 1 protestant 2 free church/ non-conformist/ evangelical 3 jew 4 muslim 5 hindu 6 buddhist 7 orthodox 8 other 9
+
+$v159
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+
+$v160
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+
+$v161
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+
+$v162
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+
+$v163
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+
+$v164
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+
+$v165
+ other missing -5 question not asked -4 not applicable -3 no answer -2 don't know -1 agree strongly 1 agree 2 disagree 3 disagree strongly 4
+</div>
 
 
 
@@ -168,7 +129,8 @@ head(evs)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 6 × 7</caption>
 <thead>
 	<tr><th scope=col>v159</th><th scope=col>v160</th><th scope=col>v161</th><th scope=col>v162</th><th scope=col>v163</th><th scope=col>v164</th><th scope=col>v165</th></tr>
@@ -182,7 +144,8 @@ head(evs)
 	<tr><td>3</td><td>1</td><td>1</td><td>2</td><td>3</td><td>2</td><td>3</td></tr>
 	<tr><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -201,7 +164,8 @@ dim(pivot_evs_longer)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 6 × 2</caption>
 <thead>
 	<tr><th scope=col>Question</th><th scope=col>Answer</th></tr>
@@ -215,7 +179,8 @@ dim(pivot_evs_longer)
 	<tr><td>v163</td><td>3</td></tr>
 	<tr><td>v164</td><td>4</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -250,7 +215,8 @@ pivot_evs
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 7 × 7</caption>
 <thead>
 	<tr><th scope=col>Question</th><th scope=col>4</th><th scope=col>1</th><th scope=col>3</th><th scope=col>2</th><th scope=col>-1</th><th scope=col>-2</th></tr>
@@ -265,7 +231,8 @@ pivot_evs
 	<tr><td>v164</td><td> 52</td><td>772</td><td>205</td><td>985</td><td> 55</td><td>6</td></tr>
 	<tr><td>v165</td><td> 70</td><td>568</td><td>447</td><td>887</td><td> 96</td><td>7</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -280,7 +247,8 @@ mutate(Total = rowSums(select(., -Question)),
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 7 × 14</caption>
 <thead>
 	<tr><th scope=col>Question</th><th scope=col>4</th><th scope=col>1</th><th scope=col>3</th><th scope=col>2</th><th scope=col>-1</th><th scope=col>-2</th><th scope=col>Total</th><th scope=col>4_%</th><th scope=col>1_%</th><th scope=col>3_%</th><th scope=col>2_%</th><th scope=col>-1_%</th><th scope=col>-2_%</th></tr>
@@ -295,7 +263,8 @@ mutate(Total = rowSums(select(., -Question)),
 	<tr><td>v164</td><td> 52</td><td>772</td><td>205</td><td>985</td><td> 55</td><td>6</td><td>2075</td><td> 2.506024</td><td>37.204819</td><td> 9.879518</td><td>47.46988</td><td>2.650602</td><td>0.2891566</td></tr>
 	<tr><td>v165</td><td> 70</td><td>568</td><td>447</td><td>887</td><td> 96</td><td>7</td><td>2075</td><td> 3.373494</td><td>27.373494</td><td>21.542169</td><td>42.74699</td><td>4.626506</td><td>0.3373494</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -305,22 +274,29 @@ var_label(evs)
 ```
 
 
-<dl>
-	<dt>$v159</dt>
-		<dd>'working mother warm relationship with children (Q48A)'</dd>
-	<dt>$v160</dt>
-		<dd>'pre-school child suffers with working mother (Q48B)'</dd>
-	<dt>$v161</dt>
-		<dd>'women really want home and children (Q48C)'</dd>
-	<dt>$v162</dt>
-		<dd>'being housewife as fulfilling as paid job (Q48D)'</dd>
-	<dt>$v163</dt>
-		<dd>'job best way for independence women (Q48E)'</dd>
-	<dt>$v164</dt>
-		<dd>'husband+wife contribute to household income (Q48F)'</dd>
-	<dt>$v165</dt>
-		<dd>'fathers as well suited to look after children as mothers (Q48G)'</dd>
-</dl>
+<div class="dataframe">
+	
+$v159
+    'working mother warm relationship with children (Q48A)'
+
+$v160
+    'pre-school child suffers with working mother (Q48B)'
+
+$v161
+    'women really want home and children (Q48C)'
+
+$v162
+    'being housewife as fulfilling as paid job (Q48D)'
+
+$v163
+    'job best way for independence women (Q48E)'
+
+$v164
+    'husband+wife contribute to household income (Q48F)'
+
+$v165
+    'fathers as well suited to look after children as mothers (Q48G)' 
+</div>
 
 
 
@@ -357,7 +333,8 @@ pivot_evs
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 7 × 14</caption>
 <thead>
 	<tr><th scope=col>Question</th><th scope=col>4</th><th scope=col>1</th><th scope=col>3</th><th scope=col>2</th><th scope=col>-1</th><th scope=col>-2</th><th scope=col>Quesdesc</th><th scope=col>Total</th><th scope=col>Agree strongly</th><th scope=col>Agree</th><th scope=col>Disagree</th><th scope=col>Disagree strongly</th><th scope=col>n.a./don't know</th></tr>
@@ -379,7 +356,8 @@ to the family income                             </td><td>2075</td><td>37.20</td
 	<tr><td>v165</td><td> 70</td><td>568</td><td>447</td><td>887</td><td> 96</td><td>7</td><td>In general, fathers are as well suited to
 look after their children as women                 </td><td>2075</td><td>27.37</td><td>42.75</td><td>21.54</td><td> 3.37</td><td>4.97</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -423,7 +401,8 @@ head(evs_613)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A grouped_df: 6 × 4</caption>
 <thead>
 	<tr><th scope=col>Question</th><th scope=col>Answer</th><th scope=col>Anstype</th><th scope=col>Count</th></tr>
@@ -437,7 +416,8 @@ head(evs_613)
 	<tr><td>v159</td><td> 4</td><td>disagree strongly</td><td>112</td></tr>
 	<tr><td>v160</td><td>-2</td><td>n.a./don't know  </td><td>  3</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 

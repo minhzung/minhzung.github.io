@@ -44,3 +44,27 @@ h6,
 .h6 {
   @apply text-h6;
 }
+
+table {
+  @apply w-full text-left text-gray-500;
+}
+
+thead {
+  @apply text-xs text-gray-700 bg-yellow-300;
+}
+
+th {
+  @apply  px-2 py-2;
+}
+
+tr {
+  @apply border-b hover:bg-yellow-400/25;
+}
+
+td {
+  @apply px-2 py-2;
+}
+
+table caption {
+  @apply text-left;
+}

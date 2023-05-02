@@ -85,7 +85,15 @@
 
 // content style
 .content {
-  @apply leading-6 prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h6:mb-6 prose-blockquote:rounded-lg prose-blockquote:border-primary prose-blockquote:bg-theme-light prose-blockquote:px-7 prose-blockquote:py-3 prose-blockquote:text-lg prose-blockquote:leading-5 prose-pre:px-6 prose-pre:py-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
+  @apply leading-6 prose max-w-none prose-headings:font-bold prose-h1:mb-4 prose-h1:text-h1-sm prose-h2:mb-4 prose-h2:mt-4 prose-h2:text-h2-sm prose-h3:mt-4 prose-h3:text-h3-sm prose-h4:mt-4 prose-h5:mb-4 prose-h6:mb-6 prose-blockquote:rounded-lg prose-pre:px-6 prose-pre:py-5 md:prose-h1:text-h1 md:prose-h2:text-h2 md:prose-h3:text-h3;
+}
+
+.content blockquote{
+  @apply border-primary bg-theme-light px-7 py-3 text-base leading-5; 
+}
+
+.content ul {
+  @apply text-sm;
 }
 
 // footer
@@ -96,5 +104,9 @@ footer p a {
 //dataframe in Notebook
 
 .dataframe {
-  font-family: monospace;
+  @apply text-xs font-mono;
+}
+
+.dataframe thead {
+  @apply sticky top-0;
 }

@@ -157,7 +157,8 @@ head(evs_ger)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 6 × 8</caption>
 <thead>
 	<tr><th scope=col>v106</th><th scope=col>v159</th><th scope=col>v160</th><th scope=col>v161</th><th scope=col>v162</th><th scope=col>v163</th><th scope=col>v164</th><th scope=col>v165</th></tr>
@@ -171,7 +172,8 @@ head(evs_ger)
 	<tr><td>-3</td><td>3</td><td>1</td><td>1</td><td>2</td><td>3</td><td>2</td><td>3</td></tr>
 	<tr><td> 2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -190,7 +192,8 @@ dim(my_df)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 6 × 8</caption>
 <thead>
 	<tr><th scope=col>v106</th><th scope=col>v159</th><th scope=col>v160</th><th scope=col>v161</th><th scope=col>v162</th><th scope=col>v163</th><th scope=col>v164</th><th scope=col>v165</th></tr>
@@ -204,7 +207,8 @@ dim(my_df)
 	<tr><td>-3</td><td>3</td><td>1</td><td>1</td><td>2</td><td>3</td><td>2</td><td>3</td></tr>
 	<tr><td> 2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
