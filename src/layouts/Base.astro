@@ -11,6 +11,9 @@ import "@styles/style.scss";
 const pf = theme.fonts.font_family.primary;
 const sf = theme.fonts.font_family.secondary;
 
+// googleSiteVerification
+const googleSiteVerification = config.analytics.googleId;
+
 // types for frontmatters
 export interface Props {
   title?: string;
@@ -55,6 +58,13 @@ const { title, meta_title, description, image, noindex, canonical } =
       }&display=swap`}
       rel="stylesheet"
     />
+
+    <!-- google tag -->
+    <meta
+        name="google-site-verification"
+        content={googleSiteVerification}
+    />
+    
 
     <!-- responsive meta -->
     <meta

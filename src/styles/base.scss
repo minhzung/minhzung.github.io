@@ -4,6 +4,8 @@ html {
 
 body {
   @apply bg-body font-primary font-normal leading-relaxed text-text;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 h1,

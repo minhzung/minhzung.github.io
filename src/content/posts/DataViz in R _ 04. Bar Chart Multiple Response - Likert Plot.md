@@ -356,7 +356,7 @@ plot_614
 
 ```r
 #Changing the font
-library(extrafont)o
+library(extrafont)
 theme_set(theme_minimal(base_family = "Lato Light"))
 plot_614 + 
     theme(plot.title = element_text(family="Lato Black"))

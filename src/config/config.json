@@ -25,5 +25,10 @@
   "params": {
     "contact_form_action": "#",
     "copyright": "Copyright © 2023 a theme by [Themefisher](https://themefisher.com)"
+  },
+
+  "analytics": {
+    "googleId": "pLyBiYK6IRVu1uWniatGN3RSP-Ojt2rUbkLTMCGiTsM"
   }
+
 }
