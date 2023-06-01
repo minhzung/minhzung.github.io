@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-06-01T01:00:00+07:00
 title: "DataViz in R | 05. Bar Chart - Playing with Facet"
-image: "/assets/05-Bar-char-facet/output_29_1.png"
+image: "/assets/05-Bar-char-facet/output_30_0.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
@@ -34,24 +34,7 @@ library(dplyr)
 options(repr.plot.width=10, repr.plot.height=12)
 theme_set(theme_minimal(base_family = "Lato Light"))
 ```
-
-    Registering fonts with R
-    
-    
-    Attaching package: 'dplyr'
-    
-    
-    The following objects are masked from 'package:stats':
-    
-        filter, lag
-    
-    
-    The following objects are masked from 'package:base':
-    
-        intersect, setdiff, setequal, union
-    
-    
-    
+   
 
 The data originate from a survey on the international comparison of school
 performance study by the Programme for International Student Assessment (PISA)
@@ -87,7 +70,8 @@ head(pisa.student)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A data.frame: 6 × 305</caption>
 <thead>
 	<tr><th></th><th scope=col>CNT</th><th scope=col>COUNTRY</th><th scope=col>OECD</th><th scope=col>SUBNATIO</th><th scope=col>SCHOOLID</th><th scope=col>StIDStd</th><th scope=col>ST01Q01</th><th scope=col>ST02Q01</th><th scope=col>ST03Q02</th><th scope=col>ST03Q03</th><th scope=col>⋯</th><th scope=col>PV4READ</th><th scope=col>PV5READ</th><th scope=col>PV1SCIE</th><th scope=col>PV2SCIE</th><th scope=col>PV3SCIE</th><th scope=col>PV4SCIE</th><th scope=col>PV5SCIE</th><th scope=col>W_FSTUWT</th><th scope=col>TESTLANG</th><th scope=col>CNTFAC</th></tr>
@@ -101,7 +85,8 @@ head(pisa.student)
 	<tr><th scope=row>5</th><td>Albania</td><td>Albania</td><td>Non-OECD</td><td>Albania</td><td>00001</td><td>00005</td><td>NA</td><td>NA</td><td>07</td><td>NA</td><td>⋯</td><td>372.95</td><td>395.99</td><td>428.70</td><td>411.92</td><td>394.20</td><td>413.78</td><td>415.65</td><td>5.7039</td><td>ALBANIAN</td><td>0.0293</td></tr>
 	<tr><th scope=row>6</th><td>Albania</td><td>Albania</td><td>Non-OECD</td><td>Albania</td><td>00001</td><td>00006</td><td>NA</td><td>NA</td><td>09</td><td>NA</td><td>⋯</td><td>506.63</td><td>505.83</td><td>549.37</td><td>585.73</td><td>585.73</td><td>535.38</td><td>509.27</td><td>5.4037</td><td>ALBANIAN</td><td>0.0293</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -126,22 +111,13 @@ unique(pisa.student$COUNTRY)
 ```
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
+
 <ol class=list-inline><li>Albania</li><li>Argentina</li><li>Australia</li><li>Austria</li><li>Azerbaijan</li><li>Belgium</li><li>Bulgaria</li><li>Brazil</li><li>Canada</li><li>Switzerland</li><li>Chile</li><li>Colombia</li><li>Czech Republic</li><li>Germany</li><li>Denmark</li><li>Spain</li><li>Estonia</li><li>Finland</li><li>France</li><li>United Kingdom</li><li>Greece</li><li>Hong Kong-China</li><li>Croatia</li><li>Hungary</li><li>Indonesia</li><li>Ireland</li><li>Iceland</li><li>Israel</li><li>Italy</li><li>Jordan</li><li>Japan</li><li>Kazakhstan</li><li>Kyrgyzstan</li><li>Korea</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Latvia</li><li>Macao-China</li><li>Mexico</li><li>Montenegro</li><li>Netherlands</li><li>Norway</li><li>New Zealand</li><li>Panama</li><li>Peru</li><li>Poland</li><li>Portugal</li><li>Dubai (UAE)</li><li>Qatar</li><li>Shanghai-China</li><li>Romania</li><li>Russian Federation</li><li>Singapore</li><li>Serbia</li><li>Slovak Republic</li><li>Slovenia</li><li>Sweden</li><li>Chinese Taipei</li><li>Thailand</li><li>Trinidad and Tobago</li><li>Tunisia</li><li>Turkey</li><li>Uruguay</li><li>United States</li></ol>
 
 <details>
 	<summary style=display:list-item;cursor:pointer>
 		<strong>Levels</strong>:
 	</summary>
-	<style>
-	.list-inline {list-style: none; margin:0; padding: 0}
-	.list-inline>li {display: inline-block}
-	.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-	</style>
 	<ol class=list-inline><li>'Albania'</li><li>'Azerbaijan'</li><li>'Argentina'</li><li>'Australia'</li><li>'Austria'</li><li>'Belgium'</li><li>'Brazil'</li><li>'Bulgaria'</li><li>'Canada'</li><li>'Chile'</li><li>'Shanghai-China'</li><li>'Chinese Taipei'</li><li>'Colombia'</li><li>'Croatia'</li><li>'Czech Republic'</li><li>'Denmark'</li><li>'Estonia'</li><li>'Finland'</li><li>'France'</li><li>'Germany'</li><li>'Greece'</li><li>'Hong Kong-China'</li><li>'Hungary'</li><li>'Iceland'</li><li>'Indonesia'</li><li>'Ireland'</li><li>'Israel'</li><li>'Italy'</li><li>'Japan'</li><li>'Kazakhstan'</li><li>'Jordan'</li><li>'Korea'</li><li>'Kyrgyzstan'</li><li>'Latvia'</li><li>'Liechtenstein'</li><li>'Lithuania'</li><li>'Luxembourg'</li><li>'Macao-China'</li><li>'Mexico'</li><li>'Montenegro'</li><li>'Netherlands'</li><li>'New Zealand'</li><li>'Norway'</li><li>'Panama'</li><li>'Peru'</li><li>'Poland'</li><li>'Portugal'</li><li>'Qatar'</li><li>'Romania'</li><li>'Russian Federation'</li><li>'Serbia'</li><li>'Singapore'</li><li>'Slovak Republic'</li><li>'Slovenia'</li><li>'Spain'</li><li>'Sweden'</li><li>'Switzerland'</li><li>'Thailand'</li><li>'Trinidad and Tobago'</li><li>'Dubai (UAE)'</li><li>'Tunisia'</li><li>'Turkey'</li><li>'United Kingdom'</li><li>'United States'</li><li>'Uruguay'</li></ol>
 </details>
 
@@ -168,7 +144,8 @@ head(pisa)
 
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A data.frame: 6 × 13</caption>
 <thead>
 	<tr><th></th><th scope=col>COUNTRY</th><th scope=col>SCHOOLID</th><th scope=col>ST24Q01</th><th scope=col>ST24Q02</th><th scope=col>ST24Q03</th><th scope=col>ST24Q04</th><th scope=col>ST24Q05</th><th scope=col>ST24Q06</th><th scope=col>ST24Q07</th><th scope=col>ST24Q08</th><th scope=col>ST24Q09</th><th scope=col>ST24Q10</th><th scope=col>ST24Q11</th></tr>
@@ -182,7 +159,8 @@ head(pisa)
 	<tr><th scope=row>5</th><td>Canada</td><td>00001</td><td>Strongly disagree</td><td>Disagree         </td><td>Strongly disagree</td><td>Disagree         </td><td>Strongly disagree</td><td>Disagree         </td><td>Disagree         </td><td>Agree            </td><td>Agree            </td><td>Agree            </td><td>Strongly disagree</td></tr>
 	<tr><th scope=row>6</th><td>Canada</td><td>00001</td><td>Agree            </td><td>Strongly disagree</td><td>Strongly disagree</td><td>Agree            </td><td>Strongly disagree</td><td>Agree            </td><td>Strongly disagree</td><td>Agree            </td><td>Strongly agree   </td><td>Strongly disagree</td><td>Strongly disagree</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -200,9 +178,7 @@ is.vector(pisa.catalog.student)
 ```
 
 
-    NULL
-
-
+NULL
 
 TRUE
 
@@ -215,14 +191,28 @@ pisa.catalog.student[grep("^ST24Q", names(pisa.catalog.student))]
 ```
 
 
-<style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>ST24Q01</dt><dd>'Read Attitude - Only if I have to'</dd><dt>ST24Q02</dt><dd>'Read Attitude - Favourite hobbies'</dd><dt>ST24Q03</dt><dd>'Read Attitude - Talk about books'</dd><dt>ST24Q04</dt><dd>'Read Attitude - Hard to finish'</dd><dt>ST24Q05</dt><dd>'Read Attitude - Happy as present'</dd><dt>ST24Q06</dt><dd>'Read Attitude - Waste of time'</dd><dt>ST24Q07</dt><dd>'Read Attitude - Enjoy library'</dd><dt>ST24Q08</dt><dd>'Read Attitude - Need information'</dd><dt>ST24Q09</dt><dd>'Read Attitude - Cannot sit still'</dd><dt>ST24Q10</dt><dd>'Read Attitude - Express opinions'</dd><dt>ST24Q11</dt><dd>'Read Attitude - Exchange'</dd></dl>
-
-
+ST24Q01:
+    'Read Attitude - Only if I have to'
+ST24Q02:
+    'Read Attitude - Favourite hobbies'
+ST24Q03:
+    'Read Attitude - Talk about books'
+ST24Q04:
+    'Read Attitude - Hard to finish'
+ST24Q05:
+    'Read Attitude - Happy as present'
+ST24Q06:
+    'Read Attitude - Waste of time'
+ST24Q07:
+    'Read Attitude - Enjoy library'
+ST24Q08:
+    'Read Attitude - Need information'
+ST24Q09:
+    'Read Attitude - Cannot sit still'
+ST24Q10:
+    'Read Attitude - Express opinions'
+ST24Q11:
+    'Read Attitude - Exchange
 
 
 ```r
@@ -246,13 +236,28 @@ question_desc
 ```
 
 
-<style>
-.dl-inline {width: auto; margin:0; padding: 0}
-.dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
-.dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
-.dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>ST24Q01</dt><dd>'I read only if I have to.'</dd><dt>ST24Q02</dt><dd>'Reading is one of my favorite hobbies.'</dd><dt>ST24Q03</dt><dd>'I like talking about books with other people.'</dd><dt>ST24Q04</dt><dd>'I find it hard to finish books.'</dd><dt>ST24Q05</dt><dd>'I feel happy if I receive a book as a present.'</dd><dt>ST24Q06</dt><dd>'For me, reading is a waste of time.'</dd><dt>ST24Q07</dt><dd>'I enjoy going to a bookstore or a library.'</dd><dt>ST24Q08</dt><dd>'I read only to get information that I need.'</dd><dt>ST24Q09</dt><dd>'I cannot sit still and read for more than a few minutes.'</dd><dt>ST24Q10</dt><dd>'I like to express my opinions about books I have read.'</dd><dt>ST24Q11</dt><dd>'I like to exchange books with my friends.'</dd></dl>
-
+ST24Q01
+    'I read only if I have to.'
+ST24Q02
+    'Reading is one of my favorite hobbies.'
+ST24Q03
+    'I like talking about books with other people.'
+ST24Q04
+    'I find it hard to finish books.'
+ST24Q05
+    'I feel happy if I receive a book as a present.'
+ST24Q06
+    'For me, reading is a waste of time.'
+ST24Q07
+    'I enjoy going to a bookstore or a library.'
+ST24Q08
+    'I read only to get information that I need.'
+ST24Q09
+    'I cannot sit still and read for more than a few minutes.'
+ST24Q10
+    'I like to express my opinions about books I have read.'
+ST24Q11
+    'I like to exchange books with my friends.'
 
 
 Now we need to make our data readable by ggplot, or switch it into a longer form using `pivot_longer()`
@@ -277,7 +282,8 @@ head(pisa_longer, 10)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 10 × 4</caption>
 <thead>
 	<tr><th scope=col>COUNTRY</th><th scope=col>Question</th><th scope=col>Answer</th><th scope=col>Count</th></tr>
@@ -295,7 +301,8 @@ head(pisa_longer, 10)
 	<tr><td>Canada</td><td>ST24Q03</td><td>Strongly disagree</td><td>5697</td></tr>
 	<tr><td>Canada</td><td>ST24Q03</td><td>Disagree         </td><td>7154</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -310,7 +317,8 @@ head(pisa_617, 10)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A grouped_df: 10 × 5</caption>
 <thead>
 	<tr><th scope=col>COUNTRY</th><th scope=col>Question</th><th scope=col>Answer</th><th scope=col>Count</th><th scope=col>Perc</th></tr>
@@ -328,7 +336,8 @@ head(pisa_617, 10)
 	<tr><td>Canada</td><td>ST24Q03</td><td>Strongly disagree</td><td>5697</td><td>0.2522917</td></tr>
 	<tr><td>Canada</td><td>ST24Q03</td><td>Disagree         </td><td>7154</td><td>0.3168150</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -385,7 +394,8 @@ head(pisa_test,10)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A grouped_df: 10 × 6</caption>
 <thead>
 	<tr><th scope=col>COUNTRY</th><th scope=col>Question</th><th scope=col>Answer</th><th scope=col>Count</th><th scope=col>Perc</th><th scope=col>neg_perc</th></tr>
@@ -403,7 +413,8 @@ head(pisa_test,10)
 	<tr><td>Canada</td><td>ST24Q03</td><td>Strongly disagree</td><td>5697</td><td>0.2522917</td><td>57%</td></tr>
 	<tr><td>Canada</td><td>ST24Q03</td><td>Disagree         </td><td>7154</td><td>0.3168150</td><td>57%</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -445,13 +456,7 @@ my_function(c('Canada', 'Mexico'))
 ```
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
-<ol class=list-inline><li>'Canada - 61%'</li><li>'Mexico - 62%'</li><li>'Canada - 57%'</li><li>'Mexico - 72%'</li><li>'Canada - 50%'</li><li>'Mexico - 76%'</li><li>'Canada - 48%'</li><li>'Mexico - 61%'</li><li>'Canada - 76%'</li><li>'Mexico - 47%'</li><li>'Canada - 60%'</li><li>'Mexico - 59%'</li><li>'Canada - 52%'</li><li>'Mexico - 53%'</li><li>'Canada - 61%'</li><li>'Mexico - 43%'</li><li>'Canada - 88%'</li><li>'Mexico - 54%'</li><li>'Canada - 44%'</li><li>'Mexico - 77%'</li><li>'Canada - 37%'</li><li>'Mexico - 52%'</li><li>'Canada - 50%'</li><li>'Mexico - 70%'</li><li>'Canada - 59%'</li><li>'Mexico - 69%'</li><li>'Canada - 62%'</li><li>'Mexico - 74%'</li><li>'Canada - 47%'</li><li>'Mexico - 53%'</li><li>'Canada - 71%'</li><li>'Mexico - 49%'</li><li>'Canada - 66%'</li></ol>
-
+'Canada - 61%''Mexico - 62%''Canada - 57%''Mexico - 72%''Canada - 50%''Mexico - 76%''Canada - 48%''Mexico - 61%''Canada - 76%''Mexico - 47%''Canada - 60%''Mexico - 59%''Canada - 52%''Mexico - 53%''Canada - 61%''Mexico - 43%''Canada - 88%''Mexico - 54%''Canada - 44%''Mexico - 77%''Canada - 37%''Mexico - 52%''Canada - 50%''Mexico - 70%''Canada - 59%''Mexico - 69%''Canada - 62%''Mexico - 74%''Canada - 47%''Mexico - 53%''Canada - 71%''Mexico - 49%''Canada - 66%'
 
 
 However, the problem with `breaks` parameter in `scale_y_discrete(labels = my_function)` is:
@@ -474,7 +479,8 @@ head(pisa_label)
 ```
 
 
-<table class="dataframe">
+<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+ <table class="dataframe">
 <caption>A tibble: 6 × 5</caption>
 <thead>
 	<tr><th scope=col>COUNTRY</th><th scope=col>Question</th><th scope=col>neg_perc</th><th scope=col>right_labels</th><th scope=col>left_labels</th></tr>
@@ -488,7 +494,8 @@ head(pisa_label)
 	<tr><td>Canada</td><td>ST24Q05</td><td>50.13961</td><td>50%</td><td>Canada - 50%</td></tr>
 	<tr><td>Canada</td><td>ST24Q06</td><td>75.72334</td><td>24%</td><td>Canada - 76%</td></tr>
 </tbody>
-</table>
+</table> 
+</div>
 
 
 
@@ -498,14 +505,36 @@ p1 <-
 pisa_617 %>%
 ggplot(aes(x=Perc, y=COUNTRY)) + 
     #geom_col creates bar and customize bar color
-    geom_col(mapping=aes(fill=Answer), color = "black", size = 0.2, width = 0.8, position = position_stack(reverse = TRUE)) +
+    geom_col(mapping=aes(fill=Answer), color = "black", linewidth = 0.2, width = 0.8, position = position_stack(reverse = TRUE)) +
     scale_fill_manual(values=color_pisa) +
     #break into facet, but use facet_wrap instead of facet_grid to modify position of strip text
     facet_wrap(Question ~ ., nrow = 11, strip.position = "top",
                labeller = as_labeller(question_desc)) +
+    
     #custom label, on the left and the right
     geom_text(data=pisa_label, mapping=aes(x=-0.01, y=COUNTRY, label=left_labels), size=3, hjust=1, family = "Lato Light") +
     geom_text(data=pisa_label, mapping=aes(x=1.01, y=COUNTRY, label=right_labels), size=3, hjust=0, family = "Lato Light") +
+       
+    #Add custom axis by geom_segment
+    geom_segment(data=data.frame(x = 0, xend = 1, y = 0, yend = 0, Question = "ST24Q11"),
+               aes(x=x,y=y,yend=yend,xend=xend), inherit.aes=FALSE)+
+
+    #To move the panel area to the right, we increase the xlim while limiting the display label
+    coord_cartesian(xlim=c(-0.1,1), clip="off")
+                       
+p1
+```
+
+
+    
+![png](/assets/05-Bar-char-facet/output_29_0.png)
+    
+
+
+
+```r
+#Formating
+p1  +
     #Title
     labs(x=NULL, y=NULL,
          title="Reading attitude",
@@ -516,19 +545,14 @@ ggplot(aes(x=Perc, y=COUNTRY)) +
     scale_x_continuous(breaks = seq(0, 1, 0.25), labels= function(x) round(abs(x)*100,0)) +
     #Add padding between bar and x-axis
     scale_y_discrete(expand = expansion(add = .8)) +
-    #Add custom axis by geom_segment
-    geom_segment(data=data.frame(x = 0, xend = 1, y = 0, yend = 0, Question = "ST24Q11"),
-               aes(x=x,y=y,yend=yend,xend=xend), inherit.aes=FALSE)+
-
-    #To move the panel area to the right, we increase the xlim while limiting the display label
-    coord_cartesian(xlim=c(-0.1,1), clip="off") +
+    #Theme element
     theme(axis.text.y = element_blank(),
           panel.grid.major = element_blank(),
           panel.grid.minor = element_blank(),
           #strip text aligned with the bar. 
           #Don't know the relationship btw l=30 and l=50
           strip.text.x = element_text(hjust = 0, size = 3 *14/5,
-                                      margin = margin(l=70)),
+                                      margin = margin(l=90)),
           legend.position = "bottom",
           legend.title = element_blank(),
           plot.caption = element_text(face="italic"),
@@ -538,19 +562,15 @@ ggplot(aes(x=Perc, y=COUNTRY)) +
           plot.margin = margin(t=10, l=10),
           #Show the x-axis line and ticks
           axis.ticks.x = element_line(color = "black"),
+          legend.spacing.x = unit(50, "pt"),
+          #Increase the distance between legend keys
+          legend.text = element_text(margin = margin(l = -40)),
          )
-                       
-p1
 ```
 
-    Warning message:
-    "[1m[22mUsing `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-    [36mℹ[39m Please use `linewidth` instead."
-    
-
 
     
-![png](/assets/05-Bar-char-facet/output_29_1.png)
+![png](/assets/05-Bar-char-facet/output_30_0.png)
     
 
 
@@ -568,16 +588,15 @@ Note: I found some useful tips in below links:
 
 
 ```r
-ggsave("6.1.7 Bar char Grouping all responses.svg", last_plot(), device=svg, width = 2400, height = 2800, units="px")
+#As we set the option of IRKernel at 10 x 12 inches, we set the same para for ggsave
+ggsave("6.1.7 Bar char Grouping all responses.svg", last_plot(), device=svg, width = 10, height = 12, units="in")
 ```
-
-![Bar Chart Facet](/assets/05-Bar-char-facet//6.1.7_Bar_char_Facet.svg)
+SVG image result (Open in new tab to zoom in)
+![Barchart Facet Starter](/assets/05-Bar-char-facet/6.1.7_Bar_char_Facet.svg)
 
 TODO:
-- [ ] Change geom_text to annotate for global font
-- [ ] Increase the distance between legend keys.
+- [x] Change geom_text to annotate for global font: The Answer is NO.
+    + This function adds geoms to a plot, but unlike a typical geom function, the properties of the geoms are **not mapped from variables of a data frame**, but are instead passed in as **vectors**.
+    + https://ggplot2.tidyverse.org/reference/annotate.html
 
 
-```r
-
-```

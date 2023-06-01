@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-04-15T11:15:00+07:00
 title: "DataViz in R | 01. Bar Chart Simple"
-image: "/assets/01-Bar-chart-simple/output_4_0.png"
+image: "/assets/01-Bar-chart-simple/output_19_0.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
