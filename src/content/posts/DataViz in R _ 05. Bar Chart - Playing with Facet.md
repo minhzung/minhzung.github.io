@@ -96,11 +96,6 @@ dim(pisa.student)
 ```
 
 
-<style>
-.list-inline {list-style: none; margin:0; padding: 0}
-.list-inline>li {display: inline-block}
-.list-inline>li:not(:last-child)::after {content: "\00b7"; padding: 0 .5ex}
-</style>
 <ol class=list-inline><li>475460</li><li>305</li></ol>
 
 
@@ -112,13 +107,13 @@ unique(pisa.student$COUNTRY)
 
 
 
-<ol class=list-inline><li>Albania</li><li>Argentina</li><li>Australia</li><li>Austria</li><li>Azerbaijan</li><li>Belgium</li><li>Bulgaria</li><li>Brazil</li><li>Canada</li><li>Switzerland</li><li>Chile</li><li>Colombia</li><li>Czech Republic</li><li>Germany</li><li>Denmark</li><li>Spain</li><li>Estonia</li><li>Finland</li><li>France</li><li>United Kingdom</li><li>Greece</li><li>Hong Kong-China</li><li>Croatia</li><li>Hungary</li><li>Indonesia</li><li>Ireland</li><li>Iceland</li><li>Israel</li><li>Italy</li><li>Jordan</li><li>Japan</li><li>Kazakhstan</li><li>Kyrgyzstan</li><li>Korea</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Latvia</li><li>Macao-China</li><li>Mexico</li><li>Montenegro</li><li>Netherlands</li><li>Norway</li><li>New Zealand</li><li>Panama</li><li>Peru</li><li>Poland</li><li>Portugal</li><li>Dubai (UAE)</li><li>Qatar</li><li>Shanghai-China</li><li>Romania</li><li>Russian Federation</li><li>Singapore</li><li>Serbia</li><li>Slovak Republic</li><li>Slovenia</li><li>Sweden</li><li>Chinese Taipei</li><li>Thailand</li><li>Trinidad and Tobago</li><li>Tunisia</li><li>Turkey</li><li>Uruguay</li><li>United States</li></ol>
+<ol class="list-inline leading-none text-sm font-mono"><li>Albania</li><li>Argentina</li><li>Australia</li><li>Austria</li><li>Azerbaijan</li><li>Belgium</li><li>Bulgaria</li><li>Brazil</li><li>Canada</li><li>Switzerland</li><li>Chile</li><li>Colombia</li><li>Czech Republic</li><li>Germany</li><li>Denmark</li><li>Spain</li><li>Estonia</li><li>Finland</li><li>France</li><li>United Kingdom</li><li>Greece</li><li>Hong Kong-China</li><li>Croatia</li><li>Hungary</li><li>Indonesia</li><li>Ireland</li><li>Iceland</li><li>Israel</li><li>Italy</li><li>Jordan</li><li>Japan</li><li>Kazakhstan</li><li>Kyrgyzstan</li><li>Korea</li><li>Liechtenstein</li><li>Lithuania</li><li>Luxembourg</li><li>Latvia</li><li>Macao-China</li><li>Mexico</li><li>Montenegro</li><li>Netherlands</li><li>Norway</li><li>New Zealand</li><li>Panama</li><li>Peru</li><li>Poland</li><li>Portugal</li><li>Dubai (UAE)</li><li>Qatar</li><li>Shanghai-China</li><li>Romania</li><li>Russian Federation</li><li>Singapore</li><li>Serbia</li><li>Slovak Republic</li><li>Slovenia</li><li>Sweden</li><li>Chinese Taipei</li><li>Thailand</li><li>Trinidad and Tobago</li><li>Tunisia</li><li>Turkey</li><li>Uruguay</li><li>United States</li></ol>
 
 <details>
 	<summary style=display:list-item;cursor:pointer>
 		<strong>Levels</strong>:
 	</summary>
-	<ol class=list-inline><li>'Albania'</li><li>'Azerbaijan'</li><li>'Argentina'</li><li>'Australia'</li><li>'Austria'</li><li>'Belgium'</li><li>'Brazil'</li><li>'Bulgaria'</li><li>'Canada'</li><li>'Chile'</li><li>'Shanghai-China'</li><li>'Chinese Taipei'</li><li>'Colombia'</li><li>'Croatia'</li><li>'Czech Republic'</li><li>'Denmark'</li><li>'Estonia'</li><li>'Finland'</li><li>'France'</li><li>'Germany'</li><li>'Greece'</li><li>'Hong Kong-China'</li><li>'Hungary'</li><li>'Iceland'</li><li>'Indonesia'</li><li>'Ireland'</li><li>'Israel'</li><li>'Italy'</li><li>'Japan'</li><li>'Kazakhstan'</li><li>'Jordan'</li><li>'Korea'</li><li>'Kyrgyzstan'</li><li>'Latvia'</li><li>'Liechtenstein'</li><li>'Lithuania'</li><li>'Luxembourg'</li><li>'Macao-China'</li><li>'Mexico'</li><li>'Montenegro'</li><li>'Netherlands'</li><li>'New Zealand'</li><li>'Norway'</li><li>'Panama'</li><li>'Peru'</li><li>'Poland'</li><li>'Portugal'</li><li>'Qatar'</li><li>'Romania'</li><li>'Russian Federation'</li><li>'Serbia'</li><li>'Singapore'</li><li>'Slovak Republic'</li><li>'Slovenia'</li><li>'Spain'</li><li>'Sweden'</li><li>'Switzerland'</li><li>'Thailand'</li><li>'Trinidad and Tobago'</li><li>'Dubai (UAE)'</li><li>'Tunisia'</li><li>'Turkey'</li><li>'United Kingdom'</li><li>'United States'</li><li>'Uruguay'</li></ol>
+	<ol class="list-inline leading-none text-sm font-mono"><li>'Albania'</li><li>'Azerbaijan'</li><li>'Argentina'</li><li>'Australia'</li><li>'Austria'</li><li>'Belgium'</li><li>'Brazil'</li><li>'Bulgaria'</li><li>'Canada'</li><li>'Chile'</li><li>'Shanghai-China'</li><li>'Chinese Taipei'</li><li>'Colombia'</li><li>'Croatia'</li><li>'Czech Republic'</li><li>'Denmark'</li><li>'Estonia'</li><li>'Finland'</li><li>'France'</li><li>'Germany'</li><li>'Greece'</li><li>'Hong Kong-China'</li><li>'Hungary'</li><li>'Iceland'</li><li>'Indonesia'</li><li>'Ireland'</li><li>'Israel'</li><li>'Italy'</li><li>'Japan'</li><li>'Kazakhstan'</li><li>'Jordan'</li><li>'Korea'</li><li>'Kyrgyzstan'</li><li>'Latvia'</li><li>'Liechtenstein'</li><li>'Lithuania'</li><li>'Luxembourg'</li><li>'Macao-China'</li><li>'Mexico'</li><li>'Montenegro'</li><li>'Netherlands'</li><li>'New Zealand'</li><li>'Norway'</li><li>'Panama'</li><li>'Peru'</li><li>'Poland'</li><li>'Portugal'</li><li>'Qatar'</li><li>'Romania'</li><li>'Russian Federation'</li><li>'Serbia'</li><li>'Singapore'</li><li>'Slovak Republic'</li><li>'Slovenia'</li><li>'Spain'</li><li>'Sweden'</li><li>'Switzerland'</li><li>'Thailand'</li><li>'Trinidad and Tobago'</li><li>'Dubai (UAE)'</li><li>'Tunisia'</li><li>'Turkey'</li><li>'United Kingdom'</li><li>'United States'</li><li>'Uruguay'</li></ol>
 </details>
 
 
