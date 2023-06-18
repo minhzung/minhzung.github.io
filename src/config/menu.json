@@ -24,10 +24,6 @@
         {
           "name": "Tags",
           "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
         }
       ]
     }
@@ -36,10 +32,6 @@
     {
       "name": "About",
       "url": "/about"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     }
   ]
 }
