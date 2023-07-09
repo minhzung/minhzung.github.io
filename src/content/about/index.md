@@ -1,23 +1,23 @@
 ---
 title: "My achievements"
 meta_title: "About"
-image: "/images/author.png"
+image: "/images/info/01.jpg"
 draft: false
 
 what_i_do:
-  title: "What I Do"
+  title: "Why this blog?"
   items:
-  - title: "Content Writing"
-    description: "Purus eget ipsum elementum venenatis, quis rutrum mi semper nonpurus eget ipsum elementum venenatis."
+  - title: "Book reviews"
+    description: "My highlights and thoughts on books I've read. Also a tracker for the price effeciency of my Kobo Libra 2 ^^."
   
-  - title: "Photography"
-    description: "Aenean maximus urna magna elementum, quis rutrum mi semper non purus eget ipsum venenatis."
+  - title: "Data Visualization"
+    description: "A place for my practice on data visualization using R. Preparing to become a better presentor."
   
-  - title: "Web Research"
-    description: "Aenean maximus urna magna elementum venenatis, quis semper non purus eget ipsum venenatis."
+  - title: "Other learnings"
+    description: "Other tips or something beautiful that I will learn."
 
 ---
 
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis quis non purus.
+## [Books](/books)
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis, aenean maximus urna magna elementum.
+

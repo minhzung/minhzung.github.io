@@ -24,6 +24,10 @@
         {
           "name": "Tags",
           "url": "/tags"
+        },
+        {
+          "name": "Books",
+          "url": "/books"
         }
       ]
     }
