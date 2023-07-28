@@ -14,34 +14,34 @@ description: "Áp dụng kinh nghiệm trong đàm phán giải cứu con tin tr
 
 ## Tổng quan
 
-**Never Split the Difference: Negotiating as if Your Life Depended on It**, tựa tiếng Việt *Đừng bao giờ chia đôi lợi ích trong mọi cuộc đàm phán* chứa đầy các ví dụ minh họa, không lý thuyết chung chung. Một cuốn sách thực dụng đúng nghĩa tôi đọc cùng lúc với cuốn của Taleb. Và uy tín hơn là được viết bởi chuyên gia giải cứu con tin của FBI. Cái hay là ta có thể *"cảm thấy"* phương pháp mô tả, bên cạnh việc nghe hết sức hợp lý, mới lạ, lại còn cho kết quả và phản ứng tốt *không ngờ*.
+**Never Split the Difference: Negotiating as if Your Life Depended on It**, tựa tiếng Việt *Đừng bao giờ chia đôi lợi ích trong mọi cuộc đàm phán* chứa đầy các ví dụ minh họa. Một cuốn sách thực dụng, uy tín được viết bởi chuyên gia giải cứu con tin của FBI. Phương pháp mô tả có nhiều điểm mới lạ, cho kết quả và phản ứng tốt *không ngờ*.
 
-Tuy nhiên đây cũng chính là điểm yếu của cuốn sách khi: 
-- Không ai có thể xác minh được tính đầy đủ của các câu chuyện, liệu rằng ngài tác giả có thêm thắt một số tình tiết - *"Chỉ là một cuốn sách thôi mà?!"*. 
-- Các ví dụ thương thảo tập trung xoay quanh đối tượng khủng bố, bắt cóc con tin, những kẻ liều mạng,... khi trò chơi chỉ diễn ra duy nhất 1 lần. Cộng với tính khí bất thường của những nhân vật này, vị chuyên gia khuyến khích cao độ các phương pháp "bẫy" tâm lý. Điều này không phù hợp với các cuộc đàm phán hàng ngày trong cuộc sống - kinh doanh, khi mối quan hệ - trò chơi luôn tiếp diễn và lạm dụng *"tricks"* chỉ khiến không ai muốn ngồi với bạn trong lần tiếp theo mà thôi.
+Tuy nhiên cũng cần đề cập tới điểm yếu của cuốn sách: 
+- Không ai có thể xác minh được tính đầy đủ của các câu chuyện, liệu rằng ngài tác giả có thêm thắt một số tình tiết - *"Chỉ là một cuốn sách thôi mà?!"*.
+- Quan hệ nhân quả giữa phương pháp của tác giả và thành công của cuộc giải cứu con tin. Mấy chục năm làm nghề này ắt hẳn ông phải có nhiều khoảnh khắc thất bại. Đưa thêm nhiều ví dụ dạng này giúp người đọc hình dung tốt hơn cốt lõi của phương pháp là gì?
+- Các ví dụ thương thảo tập trung xoay quanh đối tượng khủng bố, bắt cóc con tin, những kẻ liều mạng,... là các trò chơi chỉ diễn ra duy nhất 1 lần. Cộng với tính khí bất thường của những nhân vật này, vị chuyên gia khuyến khích cao độ các phương pháp "bẫy" tâm lý. Điều này không phù hợp với các cuộc đàm phán hàng ngày trong cuộc sống - kinh doanh, khi mối quan hệ - trò chơi luôn tiếp diễn và lạm dụng *"tricks"* chỉ khiến không ai muốn ngồi với bạn trong lần tiếp theo mà thôi.
 
 Điều đó không phủ nhận được đây là một cuốn sách hay, cung cấp nhiều góc nhìn mới lạ và hướng dẫn chúng ta thoát khỏi những thứ "bản năng" khi đàm phán.
 
 
-## Chi tiết
+## Highlights
 
 
-> Compromise is often a “bad deal” .. [and] .. “no deal is better than a bad deal.”
-
-
-Next time you want to compromise, remind yourself of those **mismatched shoes**.
-
+> Compromise is often a "bad deal" .. [and] .. "no deal is better than a bad deal."
+> Next time you want to compromise, remind yourself of those **mismatched shoes**.
 > We don’t compromise because it’s right; we compromise because it is easy and because it saves face.
 
-Deadlines are the bogeymen of negotiation,
+Khi cô vợ muốn đôi giày màu nâu còn anh chồng thích đôi màu đen. Cố gắng thỏa hiệp dẫn tới quyết định đi chân trái màu nâu và chân phải màu đen. Bản chất ở đây tôi hiểu rằng mỗi đề nghị sẽ là một chuỗi các điều kiện, khi "thỏa hiệp" chúng ta sẽ mất tính liên kết giữa các điều kiện này, như một đôi giày.
 
-Increasing specificity on threats in any type of negotiations indicates getting closer to real consequences at a real specified time. 
+> Deadlines are the bogeymen of negotiation.
+> Increasing specificity on threats in any type of negotiations indicates getting closer to real consequences at a real specified time. 
 
-Car dealers are prone to give you the best price near the 
+Biết được deadline của đối phương để có giá rẻ hơn *(ví dụ: nhân viên bán hàng vào các ngày cuối tháng, cuối quý)*. Cá nhân tôi đã bỏ lỡ một lần cơ hội này vào ngày 31 tháng 3 vì cứ nghĩ *"Rồi chương trình cũng sẽ trở lại"*. Vì lẽ đó, đối phương thường hay giấu **deadline thật** của họ, để có thời gian phòng bị cho các tình huống bất trắc hoặc đơn giản là không muốn bị "ép giá" trong thương lượng. 
 
-end of the month, when their transactions are assessed.
+Làm thế nào để nhận biết *"deadline giả"*? Câu trả lời nằm ở mức độ chi tiết của **hậu quả** đối phương cung cấp - thời gian, không gian, nội dung,... nếu vượt quá deadline đó.
 
-When the negotiation is over for one side, it’s over for the other too.
+Nếu đối phương cũng biết thủ thuật này và dùng để ép chúng ta, nên nhớ rằng: họ cũng có deadline riêng:
+> When the negotiation is over for one side, it’s over for the other too.
 
 
 If you approach a negotiation thinking that the other guy thinks like you, you’re wrong,” I say. “That’s not empathy; that’s projection.
