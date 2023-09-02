@@ -117,102 +117,100 @@ Sử dụng tên đối phương trong cuộc thương lượng để tạo ra s
 
 > Humanize yourself. Use your name to introduce yourself. Say it in a fun, friendly way. Let them enjoy the interaction, too. And get your own special price
 
-express “No” four times before actually saying the word.
+Các cách để nói "KHÔNG":
+> express “No” four times before actually saying the word.
+> - “How am I supposed to do that?”
+> - “Your offer is very generous, I’m sorry, that just doesn’t work for me”
+> - “I’m sorry but I’m afraid I just can’t do that.”
+> - “I’m sorry, no”
 
+3 nhóm (tính cách) trong đàm phán
 
-invites the other side to participate in your dilemma and solve it with a better offer.
+> Some people are Accommodators; others—like me—are basically Assertive; and the rest are data-loving Analysts.
 
-the use of “generous” nurtures your counterpart to live up to the word. The “I’m sorry” also softens the “No” and builds empathy.
+> **And to truly be effective you need elements from all three.**
+> To be good, you have to learn to be yourself at the bargaining table. To be great you have to add to your strengths, not replace them.
 
-By expressing an inability to perform, it can trigger the other side’s empathy toward you.
+ANALYSTS
 
+Những người không hề vội vã
+> time is of little consequence. Their self-image is linked to minimizing mistakes. Their motto: As much time as it takes to get it right.
 
- He dropped into silence and I didn’t take the bait.
+ghét sự bất ngờ
+> They will research for two weeks to get data they might have gotten in fifteen minutes at the negotiating table, just to keep from being surprised
 
-people fall into three broad categories. Some people are Accommodators; others—like me—are basically Assertive; and the rest are data-loving Analysts.
+và tách bạch cảm xúc
+> Apologies have little value to them since they see the negotiation and their relationship with you as a person largely as separate things
 
-And to truly be effective you need elements from all three.
+Nếu gặp:
+> If you feel they don’t see things the way you do, give them a chance to think first.
 
+Nếu bạn là **analyst**
+> The single biggest thing you can do is to smile when you speak.
 
-To be good, you have to learn to be yourself at the bargaining table. To be great you have to add to your strengths, not replace them.
+ACCOMMODATORS
 
+... dành thời gian để xây dựng mối quan hệ win-win
+> Accommodators think as long as there is a free-flowing continuous exchange of information time is being well spent.
 
-time is of little consequence. Their self-image is linked to minimizing mistakes. Their motto: As much time as it takes to get it right.
+Đặc điểm nhận dạng:
+> sociable, peace-seeking, optimistic, distractible, and poor time managers
 
+Cẩn thận vì với tính cách như vậy:
+> they may have agreed to give you something they can’t actually deliver
 
-If you feel they don’t see things the way you do, give them a chance to think first.
+> because they want nothing more that to hear what you have to say, uncovering their objections can be difficult
 
-Apologies have little value to them
+Nên tập trung hướng họ vào giải pháp hành động:
+> be sociable and friendly .. focused specifically on **implementation** to nudge them along and find ways to translate their talk into action
 
-The single biggest thing you can do is to smile when you speak.
+Nếu bạn là **accommodator**
+> do not sacrifice your objections .. be conscious of excess chitchat
 
-Accommodators think as long as there is a free-flowing continuous exchange of information time is being well spent.
+ASSERTIVE
 
-win-win.
+... quý trọng thời gian trên hết:
+> getting the solution perfect isn’t as important as getting it done
+> Their view of business relationships is based on respect, nothing more and nothing less.
 
-getting the solution perfect isn’t as important as getting it done.
+Khi gặp:
+> to focus on what they have to say, because once they are convinced **you understand them**, then and only then will they listen for your point of view.
 
+> The most important thing to get from an Assertive will be a “that’s right” that may come in the form of a “that’s it exactly” or “you hit it on the head.”
 
-to focus on what they have to say, because once they are convinced you understand them, then and only then will they listen for your point of view.
+Nếu bạn là **assertive**
+> Intentionally soften your tone and work to make it more pleasant
 
+MỘT VÀI LƯU Ý CUỐI
 
-don’t treat others the way you want to be treated; treat them the way they need to be treated.
+Một lần nữa, `empathy` chứ không phải `projection`
+> don’t treat others the way you want to be treated; treat them the way they need to be treated.
 
-pushes you to go first, wriggle from his grip. Instead of naming a price, allude to an incredibly high number that someone else might charge.
+Khi nóng giận, hãy hướng vào **proposal** chứ không phải **person**
 
-disingenuous expressions of unfelt anger—you know, faking it—backfire, leading to intractable demands and destroying trust.
+> And so when someone puts out a ridiculous offer, one that really pisses you off, take a deep breath, allow little anger, and channel it—at the proposal, not the person—and say, "I don’t see how that would ever
+work."
 
-, it has to be real, the key for it is to be under control because anger also reduces our cognitive ability.
+Bởi vì: 
+> The person across the table is never the problem. The unsolved issue is. So focus on the **issue**.
 
-never to look at your counterpart as an enemy.
+> Never create an enemy.
 
+Cho họ một khoảng thời gian nghỉ ngơi:
+> Suggest a time-out. When your counterparts step back and take a breath, they’ll no longer feel that they
+are hostage to a bad situation. They’ll regain a sense of agency and power. And they’ll appreciate you for that.
 
-person across the table is never the problem. The unsolved issue is. So focus on the 
+Hãy nghĩ về lợi ích mà những mâu thuẫn mang lại trong đàm phán để có động lực:
+> Conflict brings out truth, creativity, and resolution.
 
-Never create an enemy.
+Một lời khuyên có lẽ là dành cho những ai bắt đầu trải qua thành công trong việc áp dụng chiến thuật trong đàm phán:
+> we must always retain a beginner’s mind; and we must never overvalue our experience or undervalue the informational and emotional realities served up moment by moment in whatever situation we face.
 
-Conflict brings out truth, creativity, and resolution.
+Mở rộng tâm trí:
+> Don’t look to verify what you expect. If you do, that’s what you’ll find. Instead, you must open yourself up to the factual reality that is in front of you.
 
-we must always retain a beginner’s mind; and we must never overvalue our experience or undervalue the informational and emotional realities served up moment by moment in whatever situation we face.
+Nguyên tắc tương tự:
+> we trust people more when we view them as being similar or familiar.
 
-Don’t look to verify what you expect. If you do, that’s what you’ll find. Instead, you must open yourself up to the factual reality that is in front of you.
-
-The party who feels they have more to lose and are the most afraid of that loss has less leverage, and vice versa. 
-
-experienced negotiators delay making offers—they don’t want to give up leverage.
-
-go outside the negotiating table and speak to a third party that knows your counterpart. The most effective method is to gather it from interactions with your counterpart.
-
-
-. If you can show inconsistencies between their beliefs and their actions, you have normative leverage. No one likes to look like a hypocrite.
-
-The other guy’s “religion” is what the market, the experts, God, or society—whatever matters to him—has determined to be fair and just. 
-
-we trust people more when we view them as being similar or familiar.
-
-when someone displays a passion for what we’ve always wanted and conveys a purposeful plan of how to get there, we allow our perceptions of what’s possible to change.
-
-invoke your own power and follow-ability by expressing passion for their goals—and for their ability to achieve them.
-
-
-people respond favorably to requests made in a reasonable tone of voice and followed with a “because” reason.
-
-
-I too have a duty to be a responsible steward of my resources.
-
-negotiators mistakenly call their counterparts crazy. 
-
-people operating with incomplete information appear crazy to those who have different information.
-
-business meeting, the first few minutes, before you actually get down to business, and the last few moments, as everyone is leaving, often tell you more about the other side than anything in between.
-
-You’re going to have to ignore that little genie who’s telling you to give up, to just get along—as well as that other genie who’s telling you to lash out and yell.
-
-
-But if you are an honest, decent person looking for a reasonable outcome, you can ignore the amygdala.
-
-
-It’s easier to claim victory when you aim low. That’s why some negotiation experts say that many people who think they have “win-win” goals really have a “wimp-win” mentality.
-
-
-## Làm gì tiếp theo?
+Những khoảnh khắc ít phòng vệ:
+> business meeting, the first few minutes, before you actually get down to business, and the last few moments, as everyone is leaving, often tell you more about the other side than anything in between.
