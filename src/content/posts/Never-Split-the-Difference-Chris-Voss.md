@@ -73,44 +73,49 @@ Kĩ thuật anchoring sao cho người đối diện không cảm thấy cao? - 
 Tiếp theo, luôn sử dụng các số lẻ để cho thấy sự "đã cân nhắc kĩ lưỡng" hoặc trông có vẻ như kết quả của "một phép tính phức tạp" từ phía chúng ta:
 > numbers that end in 0 inevitably feel like **temporary placeholders**, guesstimates that you can easily be negotiated off of.
 
+Ngược lại khi yêu cầu, ta cũng nên thêm những thứ **không đo đếm bằng tiền bạc** vào *(ví dụ một tuần nghỉ phép nhiều hơn so với thông thường)*
+> the more you talk about nonsalary terms, the more likely you are to hear the full range of their options. If they can’t meet your nonsalary requests, they may even counter with more money.
 
-the other party feels the need to answer your generosity in kind. They will suddenly come up on their offer, or they’ll look to repay your kindness in the future. People feel obliged to repay debts of kindness.
+Một câu nói màu nhiệm tác giả hay sử dụng, mục đích để đối phương thực sự phải tham gia cùng chúng ta: làm sao để giải quyết vấn đề, thay vì chỉ đưa ra lời đề nghị. Kỹ thuật này được ông gọi là "the calibrated question"
+> **“How am I supposed to do that?”**
 
-the more you talk about nonsalary terms, the more likely you are to hear the full range of their options.
+>Calibrated questions have the power to educate your counterpart on what the problem is rather than causing
+conflict by telling them what the problem is.
 
-If they can’t meet your nonsalary requests, they may even counter with more money,
+> it’s best to start with “what,” “how,” and sometimes “why.” Nothing else. “Who,” “when,” and “where” will often just get your counterpart to share a fact without thinking. 
 
-forced the other guy to pause and actually think about how to solve the problem.
+> The only time you can use “why” successfully is when the defensiveness that is created supports the change you are trying to get them to see. *“Why would you ever change from the way you’ve always
+done things and try my approach?” is an example. “Why would your company ever change from your long-standing vendor and choose our company?” is another. As always, tone of voice, respectful and deferential, is critical*
 
-her delivery like an accusation or threat. As long as she stayed cool, they would hear it as a problem to be solved.
+> Don’t ask questions that start with “Why” unless you want your counterpart to defend a goal that serves you.
 
+> People always make more effort to implement a solution when they think it’s theirs.
 
-: it’s best to start with “what,” “how,” and sometimes “why.” Nothing else. “Who,” “when,” and “where” will often just get your counterpart to share a fact without thinking. 
+Kiểm soát cảm xúc bằng cách hạn chế nói, dừng lại, và suy nghĩ.
+> The first and most basic rule of keeping your emotional cool is to bite your tongue.
 
-The only time you can use “why” successfully is when the defensiveness that is created supports the change you are trying to get them to see.
+> Pause. Think. Let the passion dissipate.
 
-The first and most basic rule of keeping your emotional cool is to bite your tongue.
+> When negotiating with a foreigner, it’s common practice for a Japanese businessman to use a translator even when he understands perfectly what the other side is saying.
 
-Pause. Think. Let the passion dissipate.
+Một điều tôi hay thấy từ sếp của tôi: trước khi đem vấn đề trao đổi ở cấp quyết định, anh chị cần phải có được sự đồng tình của các bên liên quan cấp dưới trước, giảm thiểu rủi ro ai đó bỗng nhiên trở thành *deal killer* 
+> You have to beware of “behind the table” or “Level II” players—that is, parties that are not directly involved but who can help implement agreements they like and block ones they don’t. 
 
-Don’t ask questions that start with “Why” unless you want your counterpart to defend a goal that serves you.
+> At the end of the day, the deal killers often are more important than the deal makers.
 
-People always make more effort to implement a solution when they think it’s theirs.
+Tác giả quay lại nhấn mạnh tầm quan trọng của giọng nói, biểu cảm và ngôn ngữ cơ thể. Nội dung câu nói chỉ chiếm 7% (có lẽ là trên % quyết định đối phương sẽ hiểu câu đó như nào)
 
-. You have to beware of “behind the table” or “Level II” players—that is, parties that are not directly involved but who can help implement agreements they like and block ones they don’t. 
+> only 7 percent of a message is based on the words while 38 percent comes from the tone of voice and 55 percent from the speaker’s body language and face.
 
-only 7 percent of a message is based on the words while 38 percent comes from the tone of voice and 55 percent from the speaker’s body language and face.
+> three kinds of "Yes": Commitment, Confirmation, and Counterfeit.
 
-three kinds of “Yes”: Commitment, Confirmation, and Counterfeit.
+> liars use more words than truth tellers and use far more third-person pronouns. They start talking about him, her, it, one, they, and their rather than I, 
 
+Sử dụng tên đối phương trong cuộc thương lượng để tạo ra sự gần gũi, thân thiện. Các cấp trên của tôi, một lần nữa, rất hay sử dụng cách này. Ở đây tác giả cung cấp một góc nhìn khác trong việc sử dụng tên của **chính mình** để tạo ra sự kết nối. Có điều, xưng hô như này sẽ hơi kỳ ở Việt Nam, nên chỉ dùng được trong 1-2 câu mà thôi.
 
-liars use more words than truth tellers and use far more third-person pronouns. They start talking about him, her, it, one, they, and their rather than I, 
+> "My name is Chris. What’s the Chris discount?"
 
-we,” “they,” and “them” so rigorously early on in the kidnapping I was convinced we were engaged with their leader.
-
-My name is Chris. What’s the Chris discount?
-
-. Say it in a fun, friendly way. Let them enjoy the interaction, too.
+> Humanize yourself. Use your name to introduce yourself. Say it in a fun, friendly way. Let them enjoy the interaction, too. And get your own special price
 
 express “No” four times before actually saying the word.
 
