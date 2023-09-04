@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-04-15T11:15:00+07:00
 title: "DataViz in R | 01. Bar Chart Simple"
-image: "/assets/01-Bar-chart-simple/output_19_0.png"
+image: "@assets/01-Bar-chart-simple/output_19_0.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
@@ -164,7 +164,7 @@ ggplot(ipsos, aes(x=Percent, y=Country)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_6_0.png)
+![png](@assets/01-Bar-chart-simple/output_6_0.png)
     
 
 
@@ -220,7 +220,7 @@ p1
 
 
     
-![png](/assets/01-Bar-chart-simple/output_8_0.png)
+![png](@assets/01-Bar-chart-simple/output_8_0.png)
     
 
 
@@ -236,7 +236,7 @@ p1
 
 
     
-![png](/assets/01-Bar-chart-simple/output_9_0.png)
+![png](@assets/01-Bar-chart-simple/output_9_0.png)
     
 
 
@@ -258,7 +258,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_10_0.png)
+![png](@assets/01-Bar-chart-simple/output_10_0.png)
     
 
 
@@ -291,7 +291,7 @@ ggplot() +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_11_0.png)
+![png](@assets/01-Bar-chart-simple/output_11_0.png)
     
 
 
@@ -316,7 +316,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_12_0.png)
+![png](@assets/01-Bar-chart-simple/output_12_0.png)
     
 
 
@@ -339,7 +339,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_13_0.png)
+![png](@assets/01-Bar-chart-simple/output_13_0.png)
     
 
 
@@ -361,7 +361,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_14_0.png)
+![png](@assets/01-Bar-chart-simple/output_14_0.png)
     
 
 
@@ -420,7 +420,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_16_0.png)
+![png](@assets/01-Bar-chart-simple/output_16_0.png)
     
 
 
@@ -450,7 +450,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_18_0.png)
+![png](@assets/01-Bar-chart-simple/output_18_0.png)
     
 ```r
 #Add chú thích vào 1 chỗ nếu dùng geom_text khá costly bộ nhớ
@@ -482,7 +482,7 @@ p1 + scale_x_continuous(breaks = seq(0, 100, 20)) +
 
 
     
-![png](/assets/01-Bar-chart-simple/output_19_0.png)
+![png](@assets/01-Bar-chart-simple/output_19_0.png)
     
 
 
@@ -498,7 +498,7 @@ ggsave("6.1.1 Bar Chart Simple.png", last_plot(), device=png, width = 20, height
 ## Final result
 
 **!AWESOME!** *(below image is in svg type, so you can open it in a separate tab and zoom it in)*
-![Bar Chart Simple](/assets/01-Bar-chart-simple/Bar_Chart_Simple.svg)
+![Bar Chart Simple](@assets/01-Bar-chart-simple/Bar_Chart_Simple.svg)
 
 ## Debugging error
 Thật là mệt mỏi khi phải gọi `ipsos` ở mỗi geom, nguyên nhân vì nếu để dataset ở plot (ggplot), thì ở `geom_rect` sẽ xuất hiện lỗi:
@@ -538,7 +538,7 @@ ggplot(ipsos, aes(x=Percent, y=Country)) +
     geom_col()
 ```
     
-![png](/assets/01-Bar-chart-simple/output_4_0.png)
+![png](@assets/01-Bar-chart-simple/output_4_0.png)
 
 
 ## FINAL OF FINAL

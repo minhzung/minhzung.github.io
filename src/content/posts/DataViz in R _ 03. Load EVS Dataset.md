@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-04-29T10:00:00+07:00
 title: "DataViz in R | 03. Load EVS Dataset"
-image: "https://source.unsplash.com/8mikJ83LmSQ/"
+image: "@assets/03-Load-EVS-Dataset.jpg"
 postSlug: ""
 featured: false
 categories: ["ggplot"]

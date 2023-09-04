@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-05-01T19:30:00+07:00
 title: "DataViz in R | 04. Bar Chart Multiple Responses - Likert Plot"
-image: "/assets/04-Bar-chart-multi-likert/output_19_1.png"
+image: "@assets/04-Bar-chart-multi-likert/output_19_1.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
@@ -189,7 +189,7 @@ ggplot(evs_614, aes(x=plot_perc, y=Question)) +
 
 
     
-![png](/assets/04-Bar-chart-multi-likert/output_10_0.png)
+![png](@assets/04-Bar-chart-multi-likert/output_10_0.png)
     
 
 
@@ -219,7 +219,7 @@ evs_614 %>%
 
 
     
-![png](/assets/04-Bar-chart-multi-likert/output_12_0.png)
+![png](@assets/04-Bar-chart-multi-likert/output_12_0.png)
     
 
 
@@ -251,7 +251,7 @@ evs_614 %>%
 
 
     
-![png](/assets/04-Bar-chart-multi-likert/output_14_0.png)
+![png](@assets/04-Bar-chart-multi-likert/output_14_0.png)
     
 
 
@@ -349,7 +349,7 @@ plot_614
 
 
     
-![png](/assets/04-Bar-chart-multi-likert/output_18_0.png)
+![png](@assets/04-Bar-chart-multi-likert/output_18_0.png)
     
 
 
@@ -363,7 +363,7 @@ plot_614 +
 ```
 
     
-![png](/assets/04-Bar-chart-multi-likert/output_19_1.png)
+![png](@assets/04-Bar-chart-multi-likert/output_19_1.png)
     
 
 
@@ -375,5 +375,5 @@ ggsave("6.1.4 Bar Chart for mulres - Advance.svg", last_plot(), device=svg, bg="
 ```
 
 
-![Barchart Likert](/assets/04-Bar-chart-multi-likert/6.1.4_Bar_Chart_for_mulres_-_Likert.svg)
+![Barchart Likert](@assets/04-Bar-chart-multi-likert/6.1.4_Bar_Chart_for_mulres_-_Likert.svg)
 

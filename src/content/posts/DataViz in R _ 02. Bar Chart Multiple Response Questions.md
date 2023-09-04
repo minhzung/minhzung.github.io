@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-04-23T01:00:00+07:00
 title: "DataViz in R | 02. Bar Chart Multiple Responses"
-image: "/assets/02-Bar-chart-multi/output_9_0.png"
+image: "@assets/02-Bar-chart-multi/output_9_0.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
@@ -106,7 +106,7 @@ ggplot(gender_role, aes(x=Percent, y=Response)) +
     geom_bar(stat="identity")
 ```
 
-![png](/assets/02-Bar-chart-multi/output_4_0.png)
+![png](@assets/02-Bar-chart-multi/output_4_0.png)
 
 ```r
 #reorder the response
@@ -163,7 +163,7 @@ ggplot(gender_role, aes(x=Percent, y=Response)) +
 bar_mulres
 ```
 
-![png](/assets/02-Bar-chart-multi/output_7_1.png)
+![png](@assets/02-Bar-chart-multi/output_7_1.png)
 
 ```r
 #Finally, we change the font
@@ -180,7 +180,7 @@ bar_mulres +
     theme(plot.title = element_text(family="Lato Black"))
 ```
 
-![png](/assets/02-Bar-chart-multi/output_9_0.png)
+![png](@assets/02-Bar-chart-multi/output_9_0.png)
 
 ```r
 ggsave("6.1.2 Bar Chart Multi Res.svg", last_plot(), device=svg, width = 20, height = 12, units="cm")
@@ -188,7 +188,7 @@ ggsave("6.1.2 Bar Chart Multi Res.svg", last_plot(), device=svg, width = 20, hei
 
 ## Final result
 
-![Bar Chart Multi](/assets/02-Bar-chart-multi/Bar_Chart_Multi.svg)
+![Bar Chart Multi](@assets/02-Bar-chart-multi/Bar_Chart_Multi.svg)
 
 ## Bonus part
 
@@ -207,7 +207,7 @@ ggplot(gender_role, aes(x=Percent, y=Response)) +
 
 ```
 
-![png](/assets/02-Bar-chart-multi/output_13_0.png)
+![png](@assets/02-Bar-chart-multi/output_13_0.png)
 
 ```r
 #Case 2: If we want the classification has the different color of "highlight" only in layer geom_point
@@ -219,7 +219,7 @@ ggplot(gender_role, aes(x=Percent, y=Response)) +
     scale_color_manual(values=c("HL" = "darkblue", "NM" = "red", "HL2" = "green"))
 ```
 
-![png](/assets/02-Bar-chart-multi/output_14_0.png)
+![png](@assets/02-Bar-chart-multi/output_14_0.png)
 
 **TIL2**: adjusting the position of title to the left of plot, not panel.
 

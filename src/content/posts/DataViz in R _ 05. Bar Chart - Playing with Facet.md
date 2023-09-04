@@ -1,9 +1,8 @@
 ---
-
 author: Mindx
 date: 2023-06-01T01:00:00+07:00
 title: "DataViz in R | 05. Bar Chart - Playing with Facet"
-image: "/assets/05-Bar-char-facet/output_30_0.png"
+image: "@assets/05-Bar-char-facet/output_30_0.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
@@ -16,6 +15,7 @@ ogImage: ""
 description: "Let's play with facet and theming"
 
 ---
+
 ## Target result
 
 http://www.datavisualisation-r.com/pdf/barcharts_multiple_all_grouped.pdf
@@ -348,9 +348,7 @@ ggplot(aes(x=Perc, y=COUNTRY)) +
 
 
     
-![png](/assets/05-Bar-char-facet/output_18_0.png)
-    
-
+![png](@assets/05-Bar-char-facet/output_18_0.png)
 
 
 ```r
@@ -373,7 +371,7 @@ ggplot(aes(x=Perc, y=COUNTRY)) +
 
 
     
-![png](/assets/05-Bar-char-facet/output_20_0.png)
+![png](@assets/05-Bar-char-facet/output_20_0.png)
     
 
 
@@ -425,7 +423,7 @@ ggplot(aes(x=Perc, y=COUNTRY)) +
 
 
     
-![png](/assets/05-Bar-char-facet/output_23_0.png)
+![png](@assets/05-Bar-char-facet/output_23_0.png)
     
 
 
@@ -522,7 +520,7 @@ p1
 
 
     
-![png](/assets/05-Bar-char-facet/output_29_0.png)
+![png](@assets/05-Bar-char-facet/output_29_0.png)
     
 
 
@@ -565,7 +563,7 @@ p1  +
 
 
     
-![png](/assets/05-Bar-char-facet/output_30_0.png)
+![png](@assets/05-Bar-char-facet/output_30_0.png)
     
 
 
@@ -587,7 +585,7 @@ Note: I found some useful tips in below links:
 ggsave("6.1.7 Bar char Grouping all responses.svg", last_plot(), device=svg, width = 10, height = 12, units="in")
 ```
 SVG image result (Open in new tab to zoom in)
-![Barchart Facet Starter](/assets/05-Bar-char-facet/6.1.7_Bar_char_Facet.svg)
+![Barchart Facet Starter](@assets/05-Bar-char-facet/6.1.7_Bar_char_Facet.svg)
 
 TODO:
 - [x] Change geom_text to annotate for global font: The Answer is NO.

@@ -2,7 +2,7 @@
 author: Mindx
 date: 2023-06-03T19:00:00+07:00
 title: "Never Split the Difference - Chris Voss, Tahl Raz"
-image: "https://source.unsplash.com/RjqCk9MqhNg/"
+image: "@assets/B002 Never-Split-the-Difference-Chris-Voss.jpg"
 postSlug: ""
 categories: ["books"]
 tags:

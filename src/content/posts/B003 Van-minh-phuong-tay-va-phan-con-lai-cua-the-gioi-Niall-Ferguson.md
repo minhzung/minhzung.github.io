@@ -2,7 +2,7 @@
 author: Mindx
 date: 2023-09-03T00:00:00+07:00
 title: "Văn minh: Phương tây và phần còn lại của thế giới - Niall Ferguson"
-image: "https://source.unsplash.com/XnIWbaujHec/"
+image: "@assets/B003 Van-minh-phuong-tay-va-phan-con-lai-cua-the-gioi-Niall-Ferguson.jpg"
 postSlug: ""
 categories: ["books"]
 tags:

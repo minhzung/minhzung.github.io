@@ -2,7 +2,7 @@
 author: Mindx
 date: 2023-02-19T10:53:55+07:00
 title: "Trò đùa của sự ngẫu nhiên - Taleb - Phần 2"
-image: "https://source.unsplash.com/G85VuTpw6jg/"
+image: "@assets/B001 tro-dua-cua-su-ngau-nhien-taleb.jpg"
 postSlug: ""
 featured: false
 categories: ["books"]

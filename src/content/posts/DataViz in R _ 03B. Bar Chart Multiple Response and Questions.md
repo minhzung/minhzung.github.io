@@ -3,7 +3,7 @@
 author: Mindx
 date: 2023-04-29T10:30:00+07:00
 title: "DataViz in R | 03B. Bar Chart Multiple Responses and Questions"
-image: "/assets/03-Bar-chart-multi-2/output_19_0.png"
+image: "@assets/03-Bar-chart-multi-2/output_19_0.png"
 postSlug: ""
 featured: false
 categories: ["ggplot"]
@@ -437,7 +437,7 @@ ggplot(evs_613, aes(x=Count, y=Question)) +
 
 
     
-![png](/assets/03-Bar-chart-multi-2/output_17_0.png)
+![png](@assets/03-Bar-chart-multi-2/output_17_0.png)
     
 
 
@@ -487,6 +487,6 @@ ggplot(evs_613, aes(x=Count, y=Question)) +
 
 
     
-![png](/assets/03-Bar-chart-multi-2/output_19_0.png)
+![png](@assets/03-Bar-chart-multi-2/output_19_0.png)
     
 
