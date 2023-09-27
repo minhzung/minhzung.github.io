@@ -135,4 +135,7 @@ if (storedTheme) {
     themeToggleCheckbox.checked = storedTheme === "light"
     setTheme(storedTheme)
 }
+
+// Runs on view transitions navigation
+document.addEventListener("astro:after-swap", setTheme)
 </script>
