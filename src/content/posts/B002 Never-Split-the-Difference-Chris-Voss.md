@@ -1,15 +1,13 @@
 ---
 author: Mindx
-date: 2023-06-03T19:00:00+07:00
+pubDate: 2023-06-03T19:00:00+07:00
 title: "Never Split the Difference - Chris Voss, Tahl Raz"
-image: "@assets/B002 Never-Split-the-Difference-Chris-Voss.jpg"
-postSlug: ""
-categories: ["books"]
-tags:
-  - communication
-  - non-fiction
-ogImage: ""
+
 description: "Áp dụng kinh nghiệm trong đàm phán giải cứu con tin trong các cuộc thương lượng."
+
+image: '@assets/B002 Never-Split-the-Difference-Chris-Voss.jpg'
+draft: false
+category: books
 ---
 
 ## Tổng quan

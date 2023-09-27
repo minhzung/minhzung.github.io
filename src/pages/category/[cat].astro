@@ -1,0 +1,38 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content"
+
+// component imports
+import PostCard from "@components/PostCard"
+import Base from "@layouts/Base.astro"
+import config from "site-config.json"
+
+export async function getStaticPaths() {
+    const allPosts = (await getCollection("posts"))
+        .filter((post) => !post.data.draft)
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    const uniqueCats = [...new Set(allPosts.map((post) => post.data.category))]
+
+    return uniqueCats.map((cat) => {
+        const filteredPosts = allPosts.filter((post) =>
+            post.data.category.includes(cat),
+        )
+        return {
+            params: { cat },
+            props: { posts: filteredPosts },
+        }
+    })
+}
+const { cat } = Astro.params
+const { posts } = Astro.props
+---
+
+<Base>
+    <div class="text-5xl font-bold text-yellow-300 my-4">
+        {cat}
+    </div>
+    <section
+        class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+    >
+        {posts.map((post) => <PostCard data={post.data} slug={post.slug} />)}
+    </section>
+</Base>

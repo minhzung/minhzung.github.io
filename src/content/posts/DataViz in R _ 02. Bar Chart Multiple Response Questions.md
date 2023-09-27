@@ -1,18 +1,12 @@
 ---
 
 author: Mindx
-date: 2023-04-23T01:00:00+07:00
+pubDate: 2023-04-23T01:00:00+07:00
 title: "DataViz in R | 02. Bar Chart Multiple Responses"
-image: "@assets/02-Bar-chart-multi/output_9_0.png"
-postSlug: ""
-featured: false
-categories: ["ggplot"]
-draft: false
-tags:
-- dataviz
-- learning
+image: "@assets/02-Bar-chart-multi/Bar_Chart_Multi.svg"
 
-ogImage: ""
+category: 'ggplot'
+draft: false
 description: "The second bar chart with multiple response, type 1 simple"
 
 ---
@@ -73,7 +67,7 @@ gender_role <- data.frame(Resno = seq(1,7,1),
 gender_role
 ```
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe ">
 <caption>A data.frame: 7 × 3</caption>
 <thead>

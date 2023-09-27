@@ -1,18 +1,12 @@
 ---
 author: Mindx
-date: 2023-01-03T15:20:35Z
+pubDate: 2023-01-03
 title: "Trò đùa của sự ngẫu nhiên - Taleb"
-image: "@assets/B001 tro-dua-cua-su-ngau-nhien-taleb.jpg"
-postSlug: ""
-featured: false
-categories: ["books"]
-draft: false
-tags:
-  - psy
-  - econ
-  - non-fiction
-ogImage: ""
+
 description: "99,9% thành tích đạt được là nhờ vào tình cờ, và chỉ tình cờ mà thôi"
+
+image: 'https://images.unsplash.com/photo-1508138221679-760a23a2285b'
+category: books
 ---
 
 ## Tổng quan
@@ -188,4 +182,4 @@ Họ giao dịch dựa trên những **ý tưởng** rút ra từ các quan sát
 
 Trả lời cho câu hỏi ở Chương 6 của tôi. Không sử dụng lịch sử quá khứ vừa để đặt cược vừa để đo lường rủi ro.
 
-Kết thúc phần I của cuốn sách, tôi sẽ tách ghi chú cho [`phần 2 và phần 3`](../trò-đùa-của-sự-ngẫu-nhiên---taleb---phần-2) ở một bài viết khác.
+Kết thúc phần I của cuốn sách, tôi sẽ tách ghi chú cho [`phần 2 và phần 3`](./b001-tro-dua-cua-su-ngau-nhien-taleb-p2) ở một bài viết khác.

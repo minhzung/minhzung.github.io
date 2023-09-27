@@ -1,0 +1,92 @@
+---
+author: Mindx
+pubDate: 2023-10-01
+title: "Playing with mdx"
+image: "@assets/img-default.svg"
+
+category: 'ggplot'
+draft: true
+description: "Let's play with mdx components"
+
+---
+import DataFrame from '@components/mdx/DataFrame'
+
+##
+
+
+```r
+dim(pisa.student)
+#Load neccessary lib
+library(ggplot2)
+library(dplyr)
+#Setting width and height. This graph has very long height
+pisa_longer <- pisa %>%
+    pivot_longer(cols=c(-1,-2), names_to = "Question", values_to = "Answer") %>%
+    #We dropped SCHOOLID here
+    group_by(COUNTRY, Question, Answer, .add=T) %>%
+    #the default .add=FALSE in group_by() will override existing groups.
+    summarize(Count = n(), .groups = 'drop') %>%
+    #We dropped NA Answer here
+    filter(Answer != 'NA')
+
+head(pisa_longer, 10)
+```
+
+```r
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making
+it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, ver
+```
+
+
+<DataFrame>
+| Output         |
+| ------------------ |
+|66690 · 13 ddd  xx|
+| Cy Ganderton Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making
+it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+(The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, ver       |
+</DataFrame>
+
+## Normal table
+
+ hello  |  world
+ ------ | ------
+ foo    |  bar
+
+
+## Table in daisyui
+
+
+## Table but in markdown format
+
+using `https://tabletomarkdown.com/convert-spreadsheet-to-markdown/`
+
+<DataFrame>
+<caption>A data.frame: 6 × 305</caption>
+|                    | Name                          | Job                             | company        | location   | Last Login | 
+| ------------------ | ----------------------------- | ------------------------------- | -------------- | ---------- | ---------- | 
+| Cy Ganderton       | Quality Control Specialist    | Littel, Schaden and Vandervort  | Canada         | 12/16/2020 | Blue       |
+| Hart Hagerty       | Desktop Support Technician    | Zemlak, Daniel and Leannon      | United States  | 12/5/2020  | Purple     |
+| Brice Swyre        | Tax Accountant                | Carroll Group                   | China          | 8/15/2020  | Red        |
+| Marjy Ferencz      | Office Assistant I            | Rowe-Schoen                     | Russia         | 3/25/2021  | Crimson    |
+| Yancy Tear         | Community Outreach Specialist | Wyman-Ledner                    | Brazil         | 5/22/2020  | Indigo     |
+| Irma Vasilik       | Editor                        | Wiza, Bins and Emard            | Venezuela      | 12/8/2020  | Purple     |
+| Meghann Durtnal    | Staff Accountant IV           | Schuster-Schimmel               | Philippines    | 2/17/2021  | Yellow     |
+| Sammy Seston       | Accountant I                  | O'Hara, Welch and Keebler       | Indonesia      | 5/23/2020  | Crimson    |
+| Lesya Tinham       | Safety Technician IV          | Turner-Kuhlman                  | Philippines    | 2/21/2021  | Maroon     |
+| Zaneta Tewkesbury  | VP Marketing                  | Sauer LLC                       | Chad           | 6/23/2020  | Green      |
+| Andy Tipple        | Librarian                     | Hilpert Group                   | Poland         | 7/9/2020   | Indigo     |
+| Sophi Biles        | Recruiting Manager            | Gutmann Inc                     | Indonesia      | 2/12/2021  | Maroon     |
+| Florida Garces     | Web Developer IV              | Gaylord, Pacocha and Baumbach   | Poland         | 5/31/2020  | Purple     |
+| Maribeth Popping   | Analyst Programmer            | Deckow-Pouros                   | Portugal       | 4/27/2021  | Aquamarine |
+| Moritz Dryburgh    | Dental Hygienist              | Schiller, Cole and Hackett      | Sri Lanka      | 8/8/2020   | Crimson    |
+| Reid Semiras       | Teacher                       | Sporer, Sipes and Rogahn        | Poland         | 7/30/2020  | Green      |
+| Alec Lethby        | Teacher                       | Reichel, Glover and Hamill      | China          | 2/28/2021  | Khaki      |
+| Aland Wilber       | Quality Control Specialist    | Kshlerin, Rogahn and Swaniawski | Czech Republic | 9/29/2020  | Purple     |
+| Teddie Duerden     | Staff Accountant III          | Pouros, Ullrich and Windler     | France         | 10/27/2020 | Aquamarine |
+| Lorelei Blackstone | Data Coordinator              | Witting, Kutch and Greenfelder  | Kazakhstan     | 6/3/2020   | Red        |
+</DataFrame>
+
+
+## component

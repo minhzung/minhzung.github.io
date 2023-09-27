@@ -1,18 +1,10 @@
 ---
-
 author: Mindx
-date: 2023-04-15T11:15:00+07:00
+pubDate: 2023-04-15T11:15:00+07:00
 title: "DataViz in R | 01. Bar Chart Simple"
-image: "@assets/01-Bar-chart-simple/output_19_0.png"
-postSlug: ""
-featured: false
-categories: ["ggplot"]
+image: "@assets/01-Bar-chart-simple/Bar_Chart_Simple.svg"
+category: 'ggplot'
 draft: false
-tags:
-
-- dataviz
-- learning
-ogImage: ""
 description: "Khởi đầu series thử tái tạo lại các biểu đồ trong cuốn sách Data Visualisation with R sử dụng package ggplot2"
 
 ---
@@ -75,7 +67,7 @@ ipsos
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe ">
 <caption>A tibble: 16 × 2</caption>
 <thead>
@@ -117,7 +109,7 @@ ipsos <- ipsos %>%
     mutate(Country=fct_reorder(Country, Percent))
 ipsos
 ```
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe ">
 <caption>A tibble: 16 × 3</caption>
 <thead>
@@ -182,7 +174,7 @@ bg_rect
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe ">
 <caption>A data.frame: 5 × 3</caption>
 <thead>
@@ -374,7 +366,7 @@ ipsos
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe ">
 <caption>A tibble: 16 × 4</caption>
 <thead>

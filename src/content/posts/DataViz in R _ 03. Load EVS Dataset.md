@@ -1,18 +1,14 @@
 ---
-
 author: Mindx
-date: 2023-04-29T10:00:00+07:00
+pubDate: 2023-04-29T10:00:00+07:00
 title: "DataViz in R | 03. Load EVS Dataset"
 image: "@assets/03-Load-EVS-Dataset.jpg"
-postSlug: ""
-featured: false
-categories: ["ggplot"]
+
+category: 'ggplot'
 draft: false
 tags:
 - dataviz
 - wrangling
-
-ogImage: ""
 description: "Data wrangling with EVS dataset from gesis"
 
 ---
@@ -157,7 +153,7 @@ head(evs_ger)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 6 × 8</caption>
 <thead>
@@ -192,7 +188,7 @@ dim(my_df)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 6 × 8</caption>
 <thead>

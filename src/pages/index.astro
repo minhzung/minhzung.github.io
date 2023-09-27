@@ -1,22 +1,26 @@
 ---
-import config from "@config/config.json";
-import Base from "@layouts/Base.astro";
-import Pagination from "@layouts/components/Pagination.astro";
-import Posts from "@layouts/Posts.astro";
-import { getSinglePage } from "@lib/contentParser.astro";
-import { sortByDate } from "@lib/utils/sortFunctions";
+import { getCollection } from "astro:content"
+import GlassCard from "@components/GlassCard"
 
-const posts = await getSinglePage("posts");
-const sortedPosts = sortByDate(posts);
-const totalPages = Math.ceil(posts.length / config.settings.pagination);
-const currentPosts = sortedPosts.slice(0, config.settings.pagination);
+import Base from "@layouts/Base.astro"
+import BookStat from "@components/BookStat"
+
+const latestPost = (await getCollection("posts"))
+    .filter((post) => !post.data.draft)
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0]
 ---
 
 <Base>
-  <section class="section">
-    <div class="container">
-      <Posts posts={currentPosts} className="mb-16" />
-      <Pagination currentPage={1} totalPages={totalPages} />
-    </div>
-  </section>
+    <section
+        class="container grid grid-cols-1 sm:grid-cols-2 gap-8 sm:[&>*:first-child]:col-span-2"
+    >
+        <GlassCard data={latestPost.data} slug={latestPost.slug} />
+        <BookStat />
+        <article>
+            <div class="mockup-code">
+                <pre
+                    data-prefix="$"><code>Awaken The Monster Inside</code></pre>
+            </div>
+        </article>
+    </section>
 </Base>

@@ -1,18 +1,16 @@
 ---
 
 author: Mindx
-date: 2023-04-29T10:30:00+07:00
+pubDate: 2023-04-29T10:30:00+07:00
 title: "DataViz in R | 03B. Bar Chart Multiple Responses and Questions"
 image: "@assets/03-Bar-chart-multi-2/output_19_0.png"
-postSlug: ""
-featured: false
-categories: ["ggplot"]
+
+category: 'ggplot'
 draft: false
 tags:
 - dataviz
 - learning
 
-ogImage: ""
 description: "Playing with EVS data in previous post"
 
 ---
@@ -28,7 +26,6 @@ theme_set(theme_minimal())
 
 ```r
 #load the data that I have extracted
-
 evs <- readRDS("./myData/EVS_2008/germany.Rda")
 head(evs)
 ```
@@ -114,7 +111,7 @@ $v165
 
 
 
-# Data wrangling
+## Data wrangling
 
 The negative values (from -5 to -1) are deﬁned as missing values and are therefore not taken into account during statistical calculations. However, the answers of `dk (don’t know)` and `na (no answer)` gave us some insights because the question was indeed asked and the respondent has already provided an answer to it.
 
@@ -129,7 +126,7 @@ head(evs)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 6 × 7</caption>
 <thead>
@@ -164,7 +161,7 @@ dim(pivot_evs_longer)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 6 × 2</caption>
 <thead>
@@ -215,7 +212,7 @@ pivot_evs
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 7 × 7</caption>
 <thead>
@@ -247,7 +244,7 @@ mutate(Total = rowSums(select(., -Question)),
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 7 × 14</caption>
 <thead>
@@ -333,7 +330,7 @@ pivot_evs
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 7 × 14</caption>
 <thead>
@@ -401,7 +398,7 @@ head(evs_613)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A grouped_df: 6 × 4</caption>
 <thead>

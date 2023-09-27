@@ -1,18 +1,17 @@
 ---
 
 author: Mindx
-date: 2023-05-01T19:30:00+07:00
+pubDate: 2023-05-01T19:30:00+07:00
 title: "DataViz in R | 04. Bar Chart Multiple Responses - Likert Plot"
-image: "@assets/04-Bar-chart-multi-likert/output_19_1.png"
-postSlug: ""
-featured: false
-categories: ["ggplot"]
+image: "@assets/04-Bar-chart-multi-likert/6.1.4_Bar_Chart_for_mulres_-_Likert.svg"
+
+category: 'ggplot'
 draft: false
 tags:
 - dataviz
 - learning
 
-ogImage: ""
+
 description: "More advance bar chart, or diverging stacked bar chart, or some kind of likert plot."
 
 ---
@@ -41,7 +40,7 @@ head(ZA4800_DE)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 6 × 7</caption>
 <thead>
@@ -90,7 +89,7 @@ head(evs,10)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A grouped_df: 10 × 3</caption>
 <thead>
@@ -161,7 +160,7 @@ head(evs_614)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A grouped_df: 6 × 5</caption>
 <thead>
@@ -285,7 +284,7 @@ head(evs_614X)
 ```
 
 
-<div class="relative overflow-auto max-h-96 shadow-md sm:rounded-lg">
+<div class="relative overflow-auto font-mono text-sm max-h-96 text-left text-base-content/70 dataframe">
  <table class="dataframe">
 <caption>A tibble: 6 × 6</caption>
 <thead>

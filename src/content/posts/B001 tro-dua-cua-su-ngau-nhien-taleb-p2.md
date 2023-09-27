@@ -1,23 +1,15 @@
 ---
 author: Mindx
-date: 2023-02-19T10:53:55+07:00
+pubDate: 2023-02-19T10:53:55+07:00
 title: "Trò đùa của sự ngẫu nhiên - Taleb - Phần 2"
-image: "@assets/B001 tro-dua-cua-su-ngau-nhien-taleb.jpg"
-postSlug: ""
-featured: false
-categories: ["books"]
-draft: false
-tags:
-  - psy
-  - econ
-  - non-fiction
-ogImage: ""
+
 description: "Một chút xíu kiến thức về xác suất có thể dẫn đến những kết quả tệ hại hơn rất nhiều so với việc không hề biết gì về xác suất."
+image: "@assets/B001 tro-dua-cua-su-ngau-nhien-taleb.jpg"
+category: books
 ---
 
-Tiếp tục với [phần 1](../tro-dua-cua-su-ngau-nhien-taleb), mặc dù mới qua 1 nửa cuốn sách nhưng chỉ còn 1/3 số lượng highlight. Tôi tự hỏi, liệu rằng do tác giả bắt đầu cạn ý tưởng hay do tôi đọc nửa cuốn sau hời hợt. 
+Tiếp tục với [phần 1](./b001-tro-dua-cua-su-ngau-nhien-taleb), mặc dù mới qua 1 nửa cuốn sách nhưng chỉ còn 1/3 số lượng highlight. Tôi tự hỏi, liệu rằng do tác giả bắt đầu cạn ý tưởng hay do tôi đọc nửa cuốn sau hời hợt. 
 
-## Table of contents
 
 ---
 ## Phần hai: Những con khỉ và chiếc máy đánh chữ

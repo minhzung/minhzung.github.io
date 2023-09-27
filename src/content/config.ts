@@ -1,56 +1,21 @@
-import { defineCollection, z } from "astro:content";
+// Import utilities from `astro:content`
+import { z, defineCollection } from "astro:content";
 
 // Post collection schema
 const postsCollection = defineCollection({
-  schema:({ image }) => z.object({
-    id: z.string().optional(),
-    title: z.string(),
-    meta_title: z.string().optional(),
-    description: z.string().optional(),
-    date: z.date().optional(),
-    image: image().optional(),
-    authors: z.array(z.string()).default(["admin"]),
-    categories: z.array(z.string()).default(["others"]),
-    tags: z.array(z.string()).default(["others"]),
-    draft: z.boolean().optional(),
-  }),
-});
+    type: 'content',
+    schema:({ image }) => z.object({
+      title: z.string(),
+      description: z.string(),
+      pubDate: z.date(),
+      image: z.union([image(), z.string()]),
+      authors: z.array(z.string()).default(["Mindx"]),
+      category: z.string().default("others"),
+      draft: z.boolean().optional(),
+    }),
+  });
 
-// Author collection schema
-const authorsCollection = defineCollection({
-  schema: ({ image }) => z.object({
-    id: z.string().optional(),
-    title: z.string(),
-    meta_title: z.string().optional(),
-    image: image().optional(),
-    description: z.string().optional(),
-    social: z
-      .object({
-        facebook: z.string().optional(),
-        twitter: z.string().optional(),
-        instagram: z.string().optional(),
-      })
-      .optional(),
-    draft: z.boolean().optional(),
-  }),
-});
-
-// Pages collection schema
-const pagesCollection = defineCollection({
-  schema: ({ image }) => z.object({
-    id: z.string().optional(),
-    title: z.string(),
-    meta_title: z.string().optional(),
-    description: z.string().optional(),
-    image: image().optional(),
-    layout: z.string().optional(),
-    draft: z.boolean().optional(),
-  }),
-});
-
-// Export collections
+  // Export collections
 export const collections = {
-  posts: postsCollection,
-  pages: pagesCollection,
-  authors: authorsCollection,
-};
+    posts: postsCollection,
+  };

@@ -1,159 +1,31 @@
 ---
-import TwSizeIndicator from "@components/TwSizeIndicator.astro";
-import config from "@config/config.json";
-import theme from "@config/theme.json";
-import { plainify } from "@lib/utils/textConverter";
-import Footer from "@partials/Footer.astro";
-import Header from "@partials/Header.astro";
-import "@styles/style.scss";
+// component import
+import Head from "@components/Head"
+import Footer from "@components/Footer"
+import Navbar from "@components/Navbar"
 
-// font families
-const pf = theme.fonts.font_family.primary;
-const sf = theme.fonts.font_family.secondary;
+// default site data import
+import siteData from "site-config.json"
 
-// googleSiteVerification
-const googleSiteVerification = config.analytics.googleId;
+// style import
+import "../styles/tailwind.css"
 
-// types for frontmatters
-export interface Props {
-  title?: string;
-  meta_title?: string;
-  description?: string;
-  image?: string;
-  noindex?: boolean;
-  canonical?: string;
-}
-
-// distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
-  Astro.props;
+const {
+    title = siteData.title,
+    description = siteData.description,
+    image,
+    frontmatter,
+    robots,
+} = Astro.props
 ---
 
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- favicon -->
-    <link rel="shortcut icon" href={config.site.favicon} />
-    <!-- theme meta -->
-    <meta name="msapplication-TileColor" content="#000000" />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#fff"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#000"
-    />
-    <meta name="generator" content={Astro.generator} />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <!-- google font css -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href={`https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
-      }&display=swap`}
-      rel="stylesheet"
-    />
-
-    <!-- google tag -->
-    <meta
-        name="google-site-verification"
-        content={googleSiteVerification}
-    />
-    
-
-    <!-- responsive meta -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=5"
-    />
-
-    <!-- title -->
-    <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
-    </title>
-
-    <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
-
-    <!-- noindex robots -->
-    {noindex && <meta name="robots" content="noindex,nofollow" />}
-
-    <!-- meta-description -->
-    <meta
-      name="description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
-
-    <!-- author from config.json -->
-    <meta name="author" content={config.metadata.meta_author} />
-
-    <!-- og-title -->
-    <meta
-      property="og:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title
-      )}
-    />
-
-    <!-- og-description -->
-    <meta
-      property="og:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
-    />
-
-    <!-- twitter-title -->
-    <meta
-      name="twitter:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title
-      )}
-    />
-
-    <!-- twitter-description -->
-    <meta
-      name="twitter:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
-
-    <!-- og-image -->
-    <meta
-      property="og:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
-
-    <!-- twitter-image -->
-    <meta
-      name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-  </head>
-  <body>
-    <TwSizeIndicator />
-    <Header />
-    <main id="main-content" class="min-h-[60vh] pt-12">
-      <slot />
-    </main>
-    <Footer />
-  </body>
+    <Head {title} {description} {image} {frontmatter} {robots} />
+    <body class="items-center relative">
+        <main class="mx-auto px-8 antialiased md:max-w-6xl grid gap-4">
+            <Navbar />
+            <slot> Default Text</slot>
+        </main>
+        <Footer />
+    </body>
 </html>
