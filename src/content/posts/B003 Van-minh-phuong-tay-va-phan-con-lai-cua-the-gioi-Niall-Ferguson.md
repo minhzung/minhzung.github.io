@@ -4,12 +4,12 @@ pubDate: 2023-09-03T00:00:00+07:00
 title: "Văn minh: Phương tây và phần còn lại của thế giới - Niall Ferguson"
 image: "@assets/B003 Van-minh-phuong-tay-va-phan-con-lai-cua-the-gioi-Niall-Ferguson.jpg"
 category: books
-draft: true
+draft: false
 description: "Vì sao phương Tây vượt lên các quốc gia đông dân châu Á để thống trị và liệu đã đến lúc tình thế bị đảo ngược?"
 ---
 
 ## Văn minh: Phương tây và phần còn lại của thế giới [2018]
-### Niall Ferguson
+*Niall Ferguson*
 
 ## Lời nói đầu (Cho lần xuất bản tại Anh)
 ### Page 9 @ 08 June 2022 01:57 AM
