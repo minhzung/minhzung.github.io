@@ -5,7 +5,7 @@ title: "Trò đùa của sự ngẫu nhiên - Taleb"
 
 description: "99,9% thành tích đạt được là nhờ vào tình cờ, và chỉ tình cờ mà thôi"
 
-image: 'https://images.unsplash.com/photo-1508138221679-760a23a2285b'
+image: '@assets/B001 tro-dua-cua-su-ngau-nhien-taleb-2.jpg'
 category: books
 ---
 
