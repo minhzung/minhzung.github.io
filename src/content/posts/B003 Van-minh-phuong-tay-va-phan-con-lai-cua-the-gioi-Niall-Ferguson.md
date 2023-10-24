@@ -8,34 +8,41 @@ draft: false
 description: "Vì sao phương Tây vượt lên các quốc gia đông dân châu Á để thống trị và liệu đã đến lúc tình thế bị đảo ngược?"
 ---
 
-## Văn minh: Phương tây và phần còn lại của thế giới [2018]
-*Niall Ferguson*
+Không ít lần tự hỏi vì sao các quốc gia phương Tây, mặc dù phải trải qua đêm trường Trung cổ, lại có thể bứt phá ngoạn mục và trở thành kẻ "đè đầu cưỡi cổ" các quốc gia châu Á. Trước đây, tôi nghĩ rằng nguyên nhân tới từ các tiến bộ khoa học kĩ thuật, thế nhưng nó lại chẳng phải gốc rễ của vấn đề. Sâu xa hơn, cần có một thứ định hình niềm tin và ươm mầm cho các tiến bộ khoa học ấy có thể phát triển. Và vì sao bản thân con người phương Tây cũng suy nghĩ khác con người phương Đông. Niall Ferguson trả lời câu hỏi này bằng (một vài) giả thuyết, là sự kết hợp của tôn giáo, địa lý, và có thể là một chút may mắn trong lịch sử loài người. 
 
-## Lời nói đầu (Cho lần xuất bản tại Anh)
-### Page 9 @ 08 June 2022 01:57 AM
-*Empire: How Britain Made the Modern World*
+Các cuốn sách khác cùng của tác giả:
 
-### Page 12 @ 08 June 2022 02:01 AM
-*Lợi thế ấy của phương Tây giờ đây đã biến mất chăng*
+- 2003 - `Empire: How Britain Made the Modern World`
+- 2004 - `Colossus: The Rise and Fall of America’s Empire`
 
-### Page 14 @ 08 June 2022 02:03 AM
-*số người đã mất đông gấp 14 lần số người đang sống, và chúng ta, rủi ro thay, lại đang bỏ qua những kinh nghiệm mà đại đa số nhân loại đã tích lũy được*
+## Lời nói đầu
 
----
-taleb would be criticised against this point :)
+Phương pháp của tác giả đề cập tới là phương pháp luận lịch sử, dựa trên những kinh nghiệm quá khứ để học hỏi sai lầm và dự báo cho tương lai. 
+> số người đã mất đông gấp 14 lần số người đang sống, và chúng ta, rủi ro thay, lại đang bỏ qua những kinh nghiệm mà đại đa số nhân loại đã tích lũy được
 
-### Page 16 @ 08 June 2022 02:07 AM
-*Du khách nghĩ: ‘Ở đây chẳng có gì ngoài cây cỏ’, rồi bước đi. Nhưng người thợ rừng nói: ‘Hãy nhìn kìa, trong đám cỏ ấy có một con cọp đấy.’” Nói cách khác, Collingwood cho rằng lịch sử mang lại điều gì đó “khác hoàn toàn so với các quy tắc [khoa học], tức là sự thấu hiểu*
+Quan điểm này có lẽ sẽ bị Taleb chê cười. Suýt chút nữa tôi đã dừng đọc cuốn sách này do nghĩ rằng mình chỉ nên trau dồi/theo đuổi một phương pháp luận mà thôi. Rất may mắn tôi đọc được lời nhận xét sau:
+
+> Taleb theo thiên hướng tư duy của nhóm Popper ... Những người theo thuyết hoài nghi và cuối cùng luôn là bất khả tri luận, đề cao tính bất định của thế giới. Cái này trong khoa học thì rất có giá trị khi nói về phương pháp, khi nó thúc đấy chuỗi thử-sai-thử lại. Tuy nhiên có một cái trừu tượng hơn về mặt logic mà ít người trong nhóm này đả động tới. Xuất phát từ việc phê bình Tam Đoạn Luận của Aristotle, Novum Organum của Bacon đã công bố bộ công cụ mới trong tư duy về thế giới tự nhiên. Trong số này có một điểm là sự tưởng tượng, tức việc tìm hiểu thế giới tự nhiên, được dẫn đường bởi việc con người tưởng tượng sẽ tìm thấy "cái gì đó" ở nơi nào đó. Tức việc phản ánh thế giới tự nhiên không phải việc làm mang tính thụ động 1 chiều. 
+
+> ... phương pháp luận chính của Taleb vẫn là mang tính chất tổng hợp thường nghiệm, sau đó phổ quát hóa lên các sự việc khác, nên quan điểm của Taleb nghe thì rất có lý, nhưng bằng chứng yếu và tính kết nối kém (kết nối mệnh đề nguyên nhân-kết quả). **4 công cụ tư duy sơ khai của Aristotle này mang rất nhiều ngụy luận và ngẫu tượng mà chính bản thân người tổng hợp và diễn giải không nhận ra.** Vì khi xử lý dữ liệu đầu vào, đối tượng tư duy không trừu tượng hóa để đưa về mô thức có thể kết nối với nhau được, cái này đã được Kant sắp xếp lại trong `"Phê phán lý tính thuần túy"`.
+
+Thú thực là tôi không hiểu được 1/2 bình luận trên, tuy nhiên có thể rút ra 2 điểm đó là: (i) có thể đọc tiếp; và (ii) hãy đọc `Phê phán lý tính thuần túy` của Kant *(lại thêm một quyển sách nữa trong kho sách không biết tới khi nào mới đọc được)*
+
+
+> Du khách nghĩ: ‘Ở đây chẳng có gì ngoài cây cỏ’, rồi bước đi. Nhưng người thợ rừng nói: ‘Hãy nhìn kìa, trong đám cỏ ấy có một con cọp đấy.’” Nói cách khác, Collingwood cho rằng lịch sử mang lại điều gì đó “khác hoàn toàn so với các quy tắc [khoa học], tức là sự thấu hiểu
 
 ## Nhập đề: Câu hỏi của Rasselas
-### Page 58 @ 12 June 2022 04:58 PM
-*cách hiểu của Clark về từ văn minh, giai đoạn đêm trường Trung cổ kể từ khi La Mã sụp đổ đến thời kỳ Phục hưng ở thế kỷ XII không đủ tiêu chuẩn để được gọi là văn minh*
 
-### Page 60 @ 12 June 2022 04:59 PM
-*Samuel Johnson không chấp thuận từ mới này mà thích dùng từ lịch thiệp (civility) hơn. Đối với Johnson, nghĩa ngược lại của từ man rợ (barbarism) là cuộc sống đô thị lịch thiệp (tuy đôi lúc cũng hết sức thô lỗ) ở London mà ông yêu thích. Một nền văn minh (civilization), như gốc từ nguyên học của nó cho thấy, xoay quanh các thành thị (city*
+Thế nào là **văn minh**?
 
-### Page 61 @ 12 June 2022 05:00 PM
-*12 nền văn minh, bảy trong số đó đã biến mất*
+> cách hiểu của Clark về từ văn minh, giai đoạn đêm trường Trung cổ kể từ khi La Mã sụp đổ đến thời kỳ Phục hưng ở thế kỷ XII không đủ tiêu chuẩn để được gọi là văn minh
+
+> Từ “văn minh” `civilisation` trong tiếng Pháp, được nhà kinh tế học Pháp Anne-Robert-Jacques Turgot dùng lần đầu năm 1752, và được xuất bản bốn năm sau đó bởi Victor Riqueti, Hầu tước xứ Mirabeau, cha của nhà cách mạng vĩ đại.
+
+> Samuel Johnson không chấp thuận từ mới này mà thích dùng từ lịch thiệp (civility) hơn. Đối với Johnson, nghĩa ngược lại của từ man rợ (barbarism) là cuộc sống đô thị lịch thiệp (tuy đôi lúc cũng hết sức thô lỗ) ở London mà ông yêu thích. Một nền văn minh (civilization), như gốc từ nguyên học của nó cho thấy, xoay quanh các thành thị (city)
+
+Định nghĩa khác nhau dẫn tới việc đếm số lượng cũng khác nhau:
+> Adda Bozeman chỉ xác định được năm nền văn minh: **phương Tây, Ấn Độ, Trung Quốc, Byzantine và Hồi giáo**. Matthew Melko xác định được tổng cộng 12 nền văn minh, bảy trong số đó đã biến mất *(Lưỡng Hà, Ai Cập, Crete, Cổ đại, Byzantine, Trung Mỹ, Andes)*, và năm nền văn minh còn lại hiện vẫn đang tồn tại *(Trung Quốc, Nhật Bản, Ấn Độ, Hồi giáo, phương Tây)*. Shmuel Eisenstadt tính thêm nền văn minh *Do Thái* thành sáu nền văn minh đang tồn tại.
 
 ### Page 63 @ 12 June 2022 05:02 PM
 *Vào năm 1500, các đế quốc tương lai của châu Âu chiếm khoảng 10% bề mặt thế giới và cùng lắm chỉ chiếm 16% tổng dân số toàn cầu. Vào năm 1913, 11 đế quốc phương Tây kiểm soát gần ba phần năm tổng lãnh thổ và dân số và hơn ba phần tư (tới 79%) sản lượng kinh tế toàn cầu*
