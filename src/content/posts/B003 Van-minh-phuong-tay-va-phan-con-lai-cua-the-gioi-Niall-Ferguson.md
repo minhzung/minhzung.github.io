@@ -44,8 +44,8 @@ Thế nào là **văn minh**?
 Định nghĩa khác nhau dẫn tới việc đếm số lượng cũng khác nhau:
 > Adda Bozeman chỉ xác định được năm nền văn minh: **phương Tây, Ấn Độ, Trung Quốc, Byzantine và Hồi giáo**. Matthew Melko xác định được tổng cộng 12 nền văn minh, bảy trong số đó đã biến mất *(Lưỡng Hà, Ai Cập, Crete, Cổ đại, Byzantine, Trung Mỹ, Andes)*, và năm nền văn minh còn lại hiện vẫn đang tồn tại *(Trung Quốc, Nhật Bản, Ấn Độ, Hồi giáo, phương Tây)*. Shmuel Eisenstadt tính thêm nền văn minh *Do Thái* thành sáu nền văn minh đang tồn tại.
 
-### Page 63 @ 12 June 2022 05:02 PM
-*Vào năm 1500, các đế quốc tương lai của châu Âu chiếm khoảng 10% bề mặt thế giới và cùng lắm chỉ chiếm 16% tổng dân số toàn cầu. Vào năm 1913, 11 đế quốc phương Tây kiểm soát gần ba phần năm tổng lãnh thổ và dân số và hơn ba phần tư (tới 79%) sản lượng kinh tế toàn cầu*
+
+> Vào năm 1500, các đế quốc tương lai của châu Âu chiếm khoảng 10% bề mặt thế giới và cùng lắm chỉ chiếm 16% tổng dân số toàn cầu. Vào năm 1913, 11 đế quốc phương Tây kiểm soát gần ba phần năm tổng lãnh thổ và dân số và hơn ba phần tư (tới 79%) sản lượng kinh tế toàn cầu
 
 ### Page 39 @ 14 June 2022 12:32 AM
 *Ngay cả chủ nghĩa vô thần được phương Tây chủ trương giờ cũng đang phát triển rất ấn tượng.*
