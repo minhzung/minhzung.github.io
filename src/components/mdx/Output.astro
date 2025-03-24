@@ -1,0 +1,7 @@
+---
+const html = await Astro.slots.render("default")
+---
+
+<div class="border-4 bg-black">
+    <Fragment set:html={html} />
+</div>

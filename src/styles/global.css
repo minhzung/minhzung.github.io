@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* add line numbers for code: https://github.com/shikijs/shiki/issues/3 */
+
+code {
+    counter-reset: step;
+    counter-increment: step 0;
+    }
+    
+code .line::before {
+    content: counter(step);
+    counter-increment: step;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    text-align: right;
+    color: rgba(115,138,148,.4)
+}

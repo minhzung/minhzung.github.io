@@ -1,0 +1,64 @@
+---
+import { Image } from "astro:assets"
+
+// utils import
+import { formatDate, slugify, firstWords } from "../utils/textConverter"
+
+const {
+    data: { title, description, pubDate, image, category },
+    slug,
+} = Astro.props
+---
+
+<article class="grid grid-rows-[288px_auto] group">
+    <div class="relative hover:scale-[102%] transition-all duration-200">
+        <Image
+            src={image}
+            alt={title}
+            width="800"
+            height="400"
+            format="webp"
+            quality={80}
+            class="object-cover h-72 min-w-full rounded-md"
+        />
+        <a href={"/posts/" + slug}>
+            <div
+                class="absolute inset-0 rounded-md flex items-end w-full bg-gradient-to-t from-gray-900"
+            >
+                <p class="text-slate-300 text-xl font-semibold p-2">
+                    {title}
+                </p>
+            </div>
+        </a>
+    </div>
+    <div class="flex justify-between flex-col">
+        <a
+            href={"/posts/" + slug}
+            class="text-base text-base-content/70 italic pt-2 pb-1"
+            >{description}</a
+        >
+
+        <div class="flex text-base-content/70 items-center">
+            <svg
+                class="fill-current w-5 h-5 mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+            >
+                <path
+                    d="M10.854 8.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708 0z"
+                ></path>
+                <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"
+                ></path>
+                <path
+                    d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4z"
+                ></path>
+            </svg>
+            {formatDate(pubDate)}
+            <a
+                href={`/category/${slugify(category)}/`}
+                class="badge badge-outline ml-auto">{category}</a
+            >
+        </div>
+    </div>
+</article>

@@ -1,0 +1,21 @@
+{
+    "title": "mindjour",
+    "description": "Awaken The Monster Inside",
+    "image": {
+        "src": "/src/assets/img-default.svg",
+        "alt": "mindjour"
+    },
+
+    "siteSetting" : {
+        "paginationSize": 5
+    },
+
+    "navMenu" : {
+        "Posts": "/posts",
+        "Series": {
+          "Book Review": "/about",
+          "Data Viz": "/about"
+        },
+        "about": "/about"
+    }
+}

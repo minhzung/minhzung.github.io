@@ -1,0 +1,26 @@
+---
+// component imports
+import Link from "./Link.astro"
+
+const { prevUrl, nextUrl, currentPg } = Astro.props
+---
+
+<nav class="">
+    <div class="join flex items-center justify-center">
+        {
+            prevUrl && (
+                <a class="join-item btn btn-sm" href={prevUrl}>
+                    «
+                </a>
+            )
+        }
+        <button class="join-item btn btn-sm no-animation">{currentPg}</button>
+        {
+            nextUrl && (
+                <a class="join-item btn btn-sm" href={nextUrl}>
+                    »
+                </a>
+            )
+        }
+    </div>
+</nav>

@@ -1,0 +1,37 @@
+---
+import { getCollection, type CollectionEntry } from "astro:content"
+
+// component imports
+import PostCard from "@components/PostCard"
+import Base from "@layouts/Base.astro"
+import Pagination from "@components/Pagination"
+import config from "site-config.json"
+
+export async function getStaticPaths({ paginate }) {
+    const allPosts = (await getCollection("posts"))
+        .filter((post) => !post.data.draft)
+        .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+    return paginate(allPosts, {
+        pageSize: config.siteSetting.paginationSize,
+    })
+}
+
+const { page } = Astro.props
+---
+
+<Base>
+    <section
+        class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:[&>*:first-child]:col-span-2"
+    >
+        {
+            page.data.map((post) => (
+                <PostCard data={post.data} slug={post.slug} />
+            ))
+        }
+    </section>
+    <Pagination
+        prevUrl={page.url.prev}
+        nextUrl={page.url.next}
+        currentPg={page.currentPage}
+    />
+</Base>

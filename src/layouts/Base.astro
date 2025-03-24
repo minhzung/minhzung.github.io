@@ -1,0 +1,31 @@
+---
+// component import
+import Head from "@components/Head"
+import Footer from "@components/Footer"
+import Navbar from "@components/Navbar"
+
+// default site data import
+import siteData from "site-config.json"
+
+// style import
+import "../styles/global.css"
+
+const {
+    title = siteData.title,
+    description = siteData.description,
+    image,
+    frontmatter,
+    robots,
+} = Astro.props
+---
+
+<html lang="en">
+    <Head {title} {description} {image} {frontmatter} {robots} />
+    <body class="items-center relative">
+        <main class="mx-auto px-8 antialiased md:max-w-6xl grid gap-4">
+            <Navbar />
+            <slot> Default Text</slot>
+        </main>
+        <Footer />
+    </body>
+</html>

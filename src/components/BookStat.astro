@@ -1,0 +1,30 @@
+---
+import bookData from "src/pages/books.json"
+import { getBookStat } from "../utils/bookStats"
+---
+
+<article class="rounded-2xl bg-yellow-200">
+    <div class="stat">
+        <div class="stat-title">Pages Read</div>
+        <div class="stat-figure text-primary">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block w-8 h-8 stroke-current"
+                ><path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg
+            >
+        </div>
+        <div class="stat-value text-primary">
+            {getBookStat(bookData, "22").totalPages.toLocaleString()}
+        </div>
+        <div class="stat-desc">
+            from {getBookStat(bookData, "22").totalBooks.toLocaleString()} books
+            in 2022
+        </div>
+    </div>
+</article>
