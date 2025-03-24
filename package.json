@@ -9,6 +9,7 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/literata": "^5.2.5",
     "@tailwindcss/typography": "^0.5.16",
     "@tailwindcss/vite": "^4.0.15",
     "astro": "^5.5.4",

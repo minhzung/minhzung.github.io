@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@plugin '@tailwindcss/typography';
+@config "../../tailwind.config.js";
+@theme {
+    --font-sans: 'Literata Variable', 'sans-serif';
+  }
 
 /* add line numbers for code: https://github.com/shikijs/shiki/issues/3 */
 
@@ -15,4 +20,12 @@ code .line::before {
     display: inline-block;
     text-align: right;
     color: rgba(115,138,148,.4)
+}
+
+body {
+  @apply bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text;
+}
+
+.prose {
+    @apply max-w-3xl mx-auto;
 }

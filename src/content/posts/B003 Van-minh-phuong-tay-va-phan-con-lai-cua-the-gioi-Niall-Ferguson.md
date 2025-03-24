@@ -8,12 +8,14 @@ draft: false
 description: "Vì sao phương Tây vượt lên các quốc gia đông dân châu Á để thống trị và liệu đã đến lúc tình thế bị đảo ngược?"
 ---
 
-Không ít lần tự hỏi vì sao các quốc gia phương Tây, mặc dù phải trải qua đêm trường Trung cổ, lại có thể bứt phá ngoạn mục và trở thành kẻ "đè đầu cưỡi cổ" các quốc gia châu Á. Trước đây, tôi nghĩ rằng nguyên nhân tới từ các tiến bộ khoa học kĩ thuật, thế nhưng nó lại chẳng phải gốc rễ của vấn đề. Sâu xa hơn, cần có một thứ định hình niềm tin và ươm mầm cho các tiến bộ khoa học ấy có thể phát triển. Và vì sao bản thân con người phương Tây cũng suy nghĩ khác con người phương Đông. Niall Ferguson trả lời câu hỏi này bằng (một vài) giả thuyết, là sự kết hợp của tôn giáo, địa lý, và có thể là một chút may mắn trong lịch sử loài người. 
+
+Không ít lần tự hỏi vì sao các quốc gia phương Tây, mặc dù phải trải qua đêm trường Trung cổ, lại có thể bứt phá ngoạn mục và trở thành kẻ "đè đầu cưỡi cổ" các quốc gia châu Á. Trước đây, tôi nghĩ rằng nguyên nhân tới từ các tiến bộ khoa học kĩ thuật, thế nhưng nó lại chẳng phải gốc rễ của vấn đề. Sâu xa hơn, cần có một thứ định hình niềm tin và ươm mầm cho các tiến bộ khoa học ấy có thể phát triển. Và vì sao bản thân con người phương Tây cũng suy nghĩ khác con người phương Đông. Niall Ferguson trả lời câu hỏi này bằng (một vài) giả thuyết, là sự kết hợp của tôn giáo, địa lý, và có thể là một chút may mắn trong lịch sử loài người, cụ thể bằng 6 yếu tố: Cạnh tranh, Khoa học, Quyền tư hữu đất đai, Y học, Xã hội tiêu dùng, Đạo đức lao động trong các chương của cuốn sách.
 
 Các cuốn sách khác cùng của tác giả:
 
 - 2003 - `Empire: How Britain Made the Modern World`
 - 2004 - `Colossus: The Rise and Fall of America’s Empire`
+
 
 ## Lời nói đầu
 
@@ -44,113 +46,112 @@ Thế nào là **văn minh**?
 Định nghĩa khác nhau dẫn tới việc đếm số lượng cũng khác nhau:
 > Adda Bozeman chỉ xác định được năm nền văn minh: **phương Tây, Ấn Độ, Trung Quốc, Byzantine và Hồi giáo**. Matthew Melko xác định được tổng cộng 12 nền văn minh, bảy trong số đó đã biến mất *(Lưỡng Hà, Ai Cập, Crete, Cổ đại, Byzantine, Trung Mỹ, Andes)*, và năm nền văn minh còn lại hiện vẫn đang tồn tại *(Trung Quốc, Nhật Bản, Ấn Độ, Hồi giáo, phương Tây)*. Shmuel Eisenstadt tính thêm nền văn minh *Do Thái* thành sáu nền văn minh đang tồn tại.
 
-
+Tác giả mở đầu bằng dẫn chứng 1 loạt ví dụ về sự thống trị của phương Tây:
 > Vào năm 1500, các đế quốc tương lai của châu Âu chiếm khoảng 10% bề mặt thế giới và cùng lắm chỉ chiếm 16% tổng dân số toàn cầu. Vào năm 1913, 11 đế quốc phương Tây kiểm soát gần ba phần năm tổng lãnh thổ và dân số và hơn ba phần tư (tới 79%) sản lượng kinh tế toàn cầu
 
-### Page 39 @ 14 June 2022 12:32 AM
-*Ngay cả chủ nghĩa vô thần được phương Tây chủ trương giờ cũng đang phát triển rất ấn tượng.*
+> Ngay cả chủ nghĩa vô thần được phương Tây chủ trương giờ cũng đang phát triển rất ấn tượng
 
----
-really? to check
+Điểm này thì tôi thấy không hợp lý: thứ nhất - chủ nghĩa vô thần, không chỉ xuất hiện ở phương Tây - và do đó không thể khẳng định rằng nó được phương Tây __chủ trương__. Thứ hai, đúng là nó đang phát triển: 
 
-### Page 40 @ 14 June 2022 12:35 AM
-*thực dân định cư hay thực dân bóc lột – sẽ gây ra những tác động dài hạn rất khác nhau*
+> Religion is rapidly becoming less important than it’s ever been, even to people who live in countries where faith has affected everything from rulers to borders to architecture.
+>
+>&mdash;<cite>[The World's Newest Major Religion: No Religion](https://www.nationalgeographic.com/culture/article/160422-atheism-agnostic-secular-nones-rising-religion)</cite>
 
-### Page 42 @ 14 June 2022 12:39 AM
-*mắc kẹt trong cái “bẫy cân bằng mức cao”[72*
+nhưng không hẳn là __ấn tượng__ :
 
-### Page 43 @ 14 June 2022 12:40 AM
-*Nhưng vào năm 1500 thì sao? Như chúng ta sẽ thấy khi đọc cuốn sách này, công nghệ Trung Quốc, toán học Ấn Độ và thiên văn học Ả-rập đã đi trước phương Tây nhiều thế kỷ.*
+![Image](https://assets.pewresearch.org/wp-content/uploads/sites/11/2015/04/PF_15.04.02_ProjectionsOverview_unaffiliated2_640px.png)
 
-### Page 44 @ 14 June 2022 12:42 AM
-*Tây Âu dẫn đầu thế giới trong việc phát triển con đường tìm kiếm tri thức độc lập*
+> the religiously unaffiliated population is projected to shrink as a percentage of the global population, even though it will increase in absolute number. In 2010, censuses and surveys indicate, there were about 1.1 billion atheists, agnostics and people who do not identify with any particular religion.5 By 2050, the unaffiliated population is expected to exceed 1.2 billion. But, as a share of all the people in the world, those with no religious affiliation are projected to decline from 16% in 2010 to 13% by the middle of this century.
+>
+>&mdash;<cite>[The Future of World Religions: Population Growth Projections, 2010-2050](https://www.pewresearch.org/religion/2015/04/02/religious-projections-2010-2050/)</cite>
 
-### Page 44 @ 14 June 2022 12:42 AM
-*phương thức vận hành ấy phát triển được cần phải có thêm những yếu tố khác: Đó là các trung gian tài chính và việc cai trị tốt*
 
-### Page 45 @ 14 June 2022 12:44 AM
-*Trên các bình nguyên phía đông của lục địa Âu Á, các đế chế phương Đông vững như bàn thạch đã bóp nghẹt mọi canh tân; trong khi đó tại rìa phía Tây trập trùng đồi núi và bị chia cắt bởi những con sông, nhiều nền quân chủ và các thành bang đều tham gia vào hoạt động cạnh tranh và giao lưu đầy sáng tạo*
+Tác giả thử bắt đầu bằng nguyên nhân dễ thấy nhất - __chủ nghĩa đế quốc__. Bản thân nó đã có nhiều hình thái, hay cũng không phải là sản phẩm _độc quyền_ của phương Tây:
+> thực dân định cư hay thực dân bóc lột – sẽ gây ra những tác động dài hạn rất khác nhau ... Trên thực tế, vào thế kỷ XVI, một loạt đế quốc châu Á đã phát triển mạnh mẽ cả về quyền lực và phạm vi bành trướng.
 
-### Page 46 @ 14 June 2022 12:45 AM
-*Cạnh tranh
-Khoa học
-Quyền tư hữu đất đai
-Y học
-Xã hội tiêu dùng
-Đạo đức lao động*
+(Ví dụ Hà Lan đối với Nam Phi, châu Âu ở Mỹ, hay Úc là quốc gia được hình thành từ thực dân định cư. Còn Ấn Độ hay Congo là ví dụ cho thực dân bóc lột)
 
-## Hai con sông
-### Page 60 @ 15 June 2022 07:06 AM
-*hoàng đế vĩ đại nhất của triều Minh này không bao giờ làm gì nửa vời. Vĩnh Lạc đại điển, do ông lệnh triệu tập 2.000 học giả để thực hiện, gồm trên 11.000 tập*
 
-## Viên hoạn quan và con kỳ lân
-### Page 71 @ 16 June 2022 12:57 AM
-*Từ năm 1500, bất kỳ ai ở Trung Hoa bị phát hiện đóng con thuyền có hai cột buồm trở lên đều bị khép tội tử hình*
+Hay là chỉ đơn thuần do may mắn?
+> phải chăng Trung Quốc, xét theo một ý nghĩa nào đó, đã trở thành nạn nhân của chính sự thành công của mình – rằng họ đã bị mắc kẹt trong cái “bẫy cân bằng mức cao” trong đó nông dân đủ khả năng để cung cấp cái ăn cho cả biển người rộng lớn mắc kẹt trong cái “bẫy cân bằng mức cao”
 
-## Cuộc đua gia vị
-### Page 73 @ 16 June 2022 12:59 AM
-*Với người châu Âu, bơi vòng châu Phi không phải là để đem về mấy “tặng vật tượng trưng” cho vị vua kiêu ngạo nào đó, mà là để vượt trước các đối thủ, cả về kinh tế, lẫn về chính trị*
+Cũng không phải do sự thông thái, các phát minh?
+> vào năm 1500 thì sao? Như chúng ta sẽ thấy khi đọc cuốn sách này, công nghệ Trung Quốc, toán học Ấn Độ và thiên văn học Ả-rập đã đi trước phương Tây nhiều thế kỷ.
 
----
-fact? may be not
+David Landes trong `The Wealth and Poverty of Nations` _(Sự thịnh vượng và nghèo khó của các quốc gia)_
+> Tây Âu dẫn đầu thế giới trong việc phát triển con đường tìm kiếm tri thức độc lập... các trung gian tài chính và việc cai trị tốt
 
-### Page 78 @ 16 June 2022 01:06 AM
-*Châu Âu khó bị xâm nhập hơn bằng những đoàn kỵ binh – và do đó ít cần phải đoàn kết lại với nhau*
+Jared Diamond trong `How to get Rich` _(Làm giàu như thế nào)_
+> Trên các bình nguyên phía đông của lục địa Âu Á, các đế chế phương Đông vững như bàn thạch đã bóp nghẹt mọi canh tân; trong khi đó tại rìa phía Tây trập trùng đồi núi và bị chia cắt bởi những con sông, nhiều nền quân chủ và các thành bang đều tham gia vào hoạt động cạnh tranh và giao lưu đầy sáng tạo.
 
-### Page 78 @ 16 June 2022 01:06 AM
-*Có lẽ những con ngựa Mông Cổ chỉ thích đồng cỏ thảo nguyên*
 
----
-luck or probability?
+## Cạnh tranh
 
-### Page 81 @ 18 June 2022 12:24 AM
-*sự vỡ vụn chính trị đặc trưng cho châu Âu lại ngăn chặn được sự xuất hiện của cái gì đó mơ hồ giống với Đế chế Trung Hoa*
+Hai con sông - Dương Tử ở Trung Quốc và Thames ở Anh:
+> Cái tên Vĩnh Lạc có nghĩa là “niềm vui vĩnh cửu”... hoàng đế vĩ đại nhất của triều Minh này không bao giờ làm gì nửa vời. Vĩnh Lạc đại điển, do ông lệnh triệu tập 2.000 học giả để thực hiện, gồm trên 11.000 tập
 
-### Page 83 @ 18 June 2022 07:18 AM
-*Các món nợ và quà cống vua trở thành bí quyết bảo đảm sự tự trị của Thành phố*
+> So với Dương Tử, sông Thames vào đầu thế kỷ XV chỉ là ao tù ... một thị trấn với những vách tường chắp vá tạm bợ dài
+khoảng 3 dặm, một mẩu nhỏ li ti so với các bức tường thành Nam Kinh. Phần lớn tường thành vẫn đứng vững đến hôm nay, trong khi hiếm có thứ gì còn sót lại từ những bức tường London thời Trung cổ. Ngoài nạn dịch hạch, các dịch sởi, kiết lỵ và đậu mùa cũng hoành hành dữ dội... điều kiện vệ sinh tồi tàn
 
-### Page 84 @ 18 June 2022 07:20 AM
-*nếu một nhà thờ thành phố nào đó trưng ra một mặt đồng hồ mới, đối thủ cạnh tranh gần nhất của nó sẽ lập tức buộc phải bám sát ngay*
+Đó không phải nguyên nhân, vì:
+> Trong thế giới hiện nay vẫn còn những quốc gia có cuộc sống bất hạnh chẳng khác gì cuộc sống từng diễn ra ở nước Anh thời Trung cổ, nơi dịch bệnh truyền nhiễm, nạn đói, chiến tranh và chết chóc khiến cho tuổi thọ trung bình vẫn thấp
+thảm hại, nơi chỉ người giàu mới hy vọng sống lâu. Afghanistan, Haiti và Somalia.
 
-### Page 87 @ 18 June 2022 07:25 AM
-*Ngôn ngữ viết, trung tầm nền văn minh Trung Hoa, được thiết kế để sản sinh ra một thiểu số người ưu tú, thủ cựu, bảo hoàng và loại bỏ quần chúng ra rìa, xa khỏi hoạt động của họ*
+Tiếp theo là các chuyến hành trình thám hiểm, Trung Quốc đã từng cực thịnh dưới thời Vĩnh Lạc, nhưng sau đó không rõ vì động cơ nào đã quyết định quay lưng và đóng cửa:
+> Từ năm 1500, bất kỳ ai ở Trung Hoa bị phát hiện đóng con thuyền có hai cột buồm trở lên đều bị khép tội tử hình
 
-## Cuộc phong tỏa
-### Page 97 @ 18 June 2022 07:40 AM
-*Triết học có nguồn gốc từ người Hồi giáo”*
+Nhìn về mục đích:
+> _(như Adam Smith sau này đã hiểu ra)_ ... Điều Vĩnh Lạc muốn được đền đáp lại từ “các tặng vật” là những kẻ cai trị ngoại quốc phải dành cho ông sự tôn kính giống như các láng giềng trực tiếp ở châu Á đã làm, và do đó phải thừa nhận uy quyền siêu việt của ông ta. Ai dám phản đối không khấu đầu quy phục một vị hoàng đế nắm trong tay một hạm đội đồ sộ đến thế?
 
----
-to be clarified
+Khác biệt so với người châu Âu, để tìm một con đường mới trong _cuộc đua gia vị_, sau khi đế quốc Mông Cổ tan rã và thương nhân không còn được an toàn do đã bị kiểm soát hoàn toàn bởi người Thổ và người Venice: [The-Age-of-Discovery](https://www.britannica.com/topic/European-exploration/The-Age-of-Discovery)
 
-## Kính hiển vi
-### Page 109 @ 18 June 2022 07:55 AM
-*Trong suốt thế kỷ XVI, các thành phố có nhà in phát triển nhanh hơn rất nhiều so với những nơi không có nhà in*
+> Với người châu Âu, bơi vòng châu Phi không phải là để đem về mấy “tặng vật tượng trưng” cho vị vua kiêu ngạo nào đó, mà là để vượt trước các đối thủ, cả về kinh tế, lẫn về chính trị
 
----
-not a causation
+Châu Âu khao khát kiếm tiền và vượt lên các đối thủ khác trên mảnh đất của họ:
 
-### Page 116 @ 18 June 2022 10:45 AM
-*Ngay cả Newton cũng đắm mình trong thuật luyện kim. Hooke chết vì dùng thuốc lang băm để chữa chứng khó tiêu*
+>  Có khoảng 1.000 tổ chức nhà nước ở châu Âu thế kỷ XIV ... Châu Âu khó bị xâm nhập hơn bằng những đoàn kỵ binh – và do đó ít cần phải đoàn kết lại với nhau. Chúng ta không thể biết chính xác vì sao mối đe dọa từ Trung tâm châu Á lại lùi xa khỏi châu Âu sau thời Thành Cát Tư Hãn. Có lẽ Nga đã biết cách phòng thủ tốt hơn. Có lẽ những con ngựa Mông Cổ
+chỉ thích đồng cỏ thảo nguyên.
 
-### Page 117 @ 18 June 2022 10:50 AM
-*quyền tối thượng vô hạn định của tôn giáo trong thế giới người Hồi giáo. Cho đến cuối thế kỷ XI, những giáo sĩ đạo Hồi có ảnh hưởng bắt đầu biện bác rằng việc nghiên cứu triết học Hy Lạp không thể sánh với việc truyền bá Kinh Coran*
+> sự vỡ vụn chính trị đặc trưng cho châu Âu lại ngăn chặn được sự xuất hiện của cái gì đó mơ hồ giống với Đế chế Trung Hoa. Nó cũng thúc đẩy người châu Âu đi tìm những cơ hội – về kinh tế, địa chính trị và tôn giáo – ở các miền đất xa xôi.
 
-### Page 120 @ 18 June 2022 10:55 AM
-*Vào năm 1675, khi vua Charles II ủy nhiệm cho Wren thiết kế Đài thiên văn Hoàng gia ở Greenwich, chắc chắn ông không hy vọng Wren sẽ tiên đoán kết quả của các trận đánh*
+Cạnh tranh không chỉ giữa các nhà nước, mà còn chính trong nội bộ một nước, nhà vua không nắm quyền bính thực sự.
 
-### Page 121 @ 18 June 2022 10:56 AM
-*Không phải ngẫu nhiên khi ba trong số những phát minh công nghệ quan trọng nhất của thế giới – máy hơi nước của James Watt (1764), thời kế của John Harrison (1761), và guồng nước của Richard Arkwright (1769) – lại được sáng chế tại cùng một quốc gia trong cùng một thập niên*
+> nếu một nhà thờ thành phố nào đó trưng ra một mặt đồng hồ mới, đối thủ cạnh tranh gần nhất của nó sẽ lập tức buộc phải bám sát ngay.
 
-## Osman và Fritz
-### Page 127 @ 19 June 2022 03:03 PM
-*The Anti-Machiavel (Chống Machiavel) – một trong những cách phản bác của hoàng gia đối với cuốn The Prince (Quân Vương) – cẩm nang cho người cai trị, mang triết lý bi quan yếm thế của Niccolo Machiavelli xứ Florence*
+Trong khi đó ở Trung Hoa:
+> Ngôn ngữ viết, trung tâm nền văn minh Trung Hoa, được thiết kế để sản sinh ra một thiểu số người ưu tú, thủ cựu, bảo hoàng và loại bỏ quần chúng ra rìa, xa khỏi hoạt động của họ
 
-### Page 140 @ 19 June 2022 04:17 PM
-*Đầu những năm 1740, Robins áp dụng vật lý học Newton vào các bài toán pháo binh, sử dụng những phương trình vi phân để mô tả chính xác tác động của sức cản không khí lên quỹ đạo của các viên đạn tốc độ cao (bài toán mà Galileo đã không giải được*
+## Khoa học
+
+Tác giả nhấn mạnh tầm quan trọng của việc phát minh ra in ấn và xuất bản:
+> Trong suốt thế kỷ XVI, các thành phố có nhà in phát triển nhanh hơn rất nhiều so với những nơi không có nhà in
+
+Mặc dù mô tả này tới từ các thống kê _(tham khảo: (a) [Impact-of-the-printing-press](https://cepr.org/voxeu/columns/information-technology-and-economic-change-impact-printing-press); (b) [The-largest-print-centres-through-time](https://arts.st-andrews.ac.uk/visualisinghistory/posts/the-largest-print-centres-through-time-1450-1650))_, điều này không có nghĩa `nhà in` là nguyên nhân của sự `phát triển nhanh`. Không ai biết danh sách đầy đủ các nguyên nhân cả.
+
+Giải thích vì sao các quốc gia Hồi giáo không có cuộc cách mạng khoa học nào, mặc dù đã có một nền tảng vững chắc từ trước:
+
+> ... quyền tối thượng vô hạn định của tôn giáo trong thế giới người Hồi giáo. Cho đến cuối thế kỷ XI, những giáo sĩ đạo Hồi có ảnh hưởng bắt đầu biện bác rằng việc nghiên cứu triết học Hy Lạp không thể sánh với việc truyền bá Kinh Coran.
+
+>  trong khi những người kế nghiệp Osman ngủ vùi thì những kẻ cầm quyền khắp châu Âu tích cực xúc tiến khoa học, bất
+chấp mọi phiền toái hành chính ... Vào năm 1675, khi vua Charles II ủy nhiệm cho Wren thiết kế Đài thiên văn Hoàng gia ở Greenwich, chắc chắn ông không hy vọng Wren sẽ tiên đoán kết quả của các trận đánh. Nhà vua hiểu rất rõ rằng khoa học thực sự mang lại lợi ích cho quốc gia.
+
+> nền văn hóa nổi trội về kỹ năng thực hành khéo léo và quan sát bền bỉ có vẻ đã luôn luôn dễ dàng sản sinh ra các ưu thế công nghệ ... Không phải ngẫu nhiên khi ba trong số những phát minh công nghệ quan trọng nhất của thế giới – máy hơi nước của James Watt (1764), thời kế của John Harrison (1761), và guồng nước của Richard Arkwright (1769) – lại được sáng chế tại cùng một quốc gia trong cùng một thập niên*
+
+Cách biệt giữa Hồi giáo ở Cận Đông và phương Tây ngày càng tăng:
+
+> Ở Istanbul, Sultan Osman III uể oải quản lý một Đế chế Ottoman đang sa sút; còn tại Potsdam, Frederick Vĩ đại ban bố những cải cách khiến cho Vương quốc Phổ trở thành hình mẫu về quân sự hiệu quả và hành chính hợp lý.
+
+> triết lý chính trị của Frederick ... The Anti-Machiavel (Chống Machiavel) – một trong những cách phản bác của hoàng gia đối với cuốn The Prince (Quân Vương) – cẩm nang cho người cai trị, mang triết lý bi quan yếm thế của Niccolo Machiavelli xứ Florence ... _Khi người ta được tự do lựa chọn giữa nhành ô liu hay vòng nguyệt quế thì thà dấn
+thân vào một cuộc chiến tranh tấn công còn hơn là đợi đến khoảnh khắc tuyệt vọng, khi mà một lời tuyên chiến chỉ có thể nhất thời trì hoãn kiếp nô lệ và sự hủy diệt_
+
+> Đầu những năm 1740, Robins áp dụng vật lý học Newton vào các bài toán pháo binh, sử dụng những phương trình vi phân để mô tả chính xác tác động của sức cản không khí lên quỹ đạo của các viên đạn tốc độ cao (bài toán mà Galileo đã không giải được)
+
+-- Benjamin Robins ballistics pendulum --
 
 ## Từ Istanbul đến Jerusalem
-### Page 150 @ 19 June 2022 04:28 PM
-*Để chắc chắn, người Thổ Nhĩ Kỳ đã thay đổi kiểu cách trang phục của họ kể từ sau Thế chiến thứ Nhất sao cho ngày càng phù hợp với các tiêu chí phương Tây, y như người Nhật Bản đã làm sau cuộc Duy tân Minh Trị*
+
+> Để chắc chắn, người Thổ Nhĩ Kỳ đã thay đổi kiểu cách trang phục của họ kể từ sau Thế chiến thứ Nhất sao cho ngày càng phù hợp với các tiêu chí phương Tây, y như người Nhật Bản đã làm sau cuộc Duy tân Minh Trị
+
 
 ### Page 153 @ 19 June 2022 04:33 PM
 *Israel – tuyên bố Jerusalem là thủ đô của họ[136] – bị đe dọa từ mọi phía bởi các lực lượng Hồi giáo: Hamas tại các lãnh thổ bị chiếm đóng ở Gaza (mà nay nó đang kiểm soát), lực lượng bờ Tây sông Jordan, Herbollah tại nước Lebanon láng giềng, Iran về phía Đông, kể cả Ả-rập Saudi. Tại Ai Cập và Syria, người Israel chứng kiến người Hồi giáo xâm lấn chống lại các chính phủ thế tục. Thậm chí nước Thổ Nhĩ Kỳ anh em truyền thống giờ đây đang dịch chuyển về phía thân Hồi giáo và chống chủ nghĩa phục quốc Do Thái, với một chính sách ngoại giao Tân-Ottoman đang hình thành*
