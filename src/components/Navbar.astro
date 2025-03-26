@@ -1,68 +1,36 @@
 ---
 import siteData from "site-config.json"
 import ThemeIcon from './ThemeIcon.astro';
+import Logo from "./Logo.astro";
 ---
-<!-- {siteData.title} -->
-
-<nav class="h-20 bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-50 transition-colors duration-200">
-    <div class="mx-auto px-4 sm:px-6 lg:px-8 h-full">
-        <div class="flex justify-between items-center h-full">
-            <!-- Logo and mobile menu -->
-            <div class="flex items-center gap-4">
-                <button id="mobileMenuButton" class="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
-                    <svg class="h-6 w-6 text-gray-800 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
-                </button>
-                <a href="/" class="flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 transition-transform hover:rotate-12" fill="#facc15" viewBox="6.639 16.119 40 25.004">
-                        <path d="m11.637 16.119 15.007 9.997 14.996-9.997-.157.112 5.156 19.882h-9.997l-4.999-4.987-4.999 9.997-5.01-9.997-4.999 4.999H6.638l5.167-19.893-.168-.112Z"/>
-                    </svg>
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">{siteData.title}</span>
-                </a>
-            </div>
-
-            <!-- Desktop navigation -->
-            <div class="hidden md:flex items-center gap-8">
-                <a href="/posts" class="nav-link">Posts</a>
-                <div class="relative group">
-                    <button class="nav-link flex items-center gap-1">
-                        Series
-                        <svg class="w-4 h-4 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                        </svg>
-                    </button>
-                    <div class="absolute top-full left-0 hidden group-hover:block bg-white dark:bg-gray-800 shadow-lg rounded-lg mt-2 w-48">
-                        <a href="/category/books" class="dropdown-link">Book Reviews</a>
-                        <a href="/category/ggplot" class="dropdown-link">Data Viz</a>
-                    </div>
-                </div>
-                <a href="/about" class="nav-link">About</a>
-            </div>
-
-            <!-- Theme toggle -->
-            <ThemeIcon />
-        </div>
+<nav class="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-white/30 shadow-lg transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <Logo />
+        <h1 id="siteNameId" class="text-3xl font text-gray-800 dark:text-amber-400 md:block hidden">{siteData.title}</h1>
+      </div>
+      
+      <div class="flex items-center space-x-6">
+        <nav class="flex space-x-4">
+          <a href="/posts" class="text-gray-700 hover:text-blue-600 transition-colors">
+            Posts
+          </a>
+          <a href="/about" class="text-gray-700 hover:text-blue-600 transition-colors">
+            About
+          </a>
+          <a href="/book" class="text-gray-700 hover:text-blue-600 transition-colors">
+            Book
+          </a>
+          <ThemeIcon />
+        </nav>
+      </div>
     </div>
+  </nav>
 
-    <!-- Mobile menu -->
-    <div id="mobileMenu" class="md:hidden hidden absolute w-full bg-white dark:bg-gray-900 shadow-lg">
-        <div class="px-4 pt-2 pb-4 space-y-1">
-            <a href="/posts" class="mobile-link">Posts</a>
-            <div class="relative">
-                <button id="mobileSeriesButton" class="mobile-link flex justify-between items-center">
-                    Series
-                    <svg class="w-4 h-4 transform transition-transform" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                    </svg>
-                </button>
-                <div id="mobileSeriesMenu" class="hidden pl-4">
-                    <a href="/category/books" class="mobile-sublink">Book Reviews</a>
-                    <a href="/category/ggplot" class="mobile-sublink">Data Viz</a>
-                </div>
-            </div>
-            <a href="/about" class="mobile-link">About</a>
-        </div>
-    </div>
-</nav>
 
+<style>
+nav {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+</style>

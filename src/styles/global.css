@@ -26,6 +26,26 @@ body {
   @apply bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text;
 }
 
-.prose {
-    @apply max-w-3xl mx-auto;
+/* Edit table style for components */
+
+@layer components {
+  .dataframe table {
+    @apply w-full;
+  }
+  
+  .dataframe thead {
+    @apply text-gray-700 bg-yellow-300 sticky top-0;
+  }
+  
+  .dataframe th {
+    @apply  px-2 py-2;
+  }
+  
+  .dataframe tr {
+    @apply border-b hover:bg-yellow-400/25;
+  }
+  
+  .dataframe td {
+    @apply px-2 pt-1 pb-0;
+  }
 }
