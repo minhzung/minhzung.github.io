@@ -10,8 +10,9 @@ tags:
 - dataviz
 - learning
 description: "Let's play with facet and theming"
+
 ---
-import DataFrame from '@components/mdx/DataFrame'
+
 
 ## Target result
 
