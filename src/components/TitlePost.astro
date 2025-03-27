@@ -22,7 +22,7 @@ const { title } = Astro.props;
     const originalClasses = siteNameEl.className;
 
     // Update text content
-    siteNameEl.textContent = `${siteNameEl.textContent} | ${title}`;
+    siteNameEl.textContent = ` | ${title}`;
     
     // Modify classes to reduce font size
     siteNameEl.className = `${originalClasses} text-lg`;

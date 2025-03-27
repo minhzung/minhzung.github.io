@@ -3,7 +3,6 @@ import { getCollection } from "astro:content"
 import GlassCard from "@components/GlassCard"
 
 import Base from "@layouts/Base.astro"
-import BookStat from "@components/BookStat"
 
 const latestPost = (await getCollection("posts"))
     .filter((post) => !post.data.draft)
@@ -15,12 +14,6 @@ const latestPost = (await getCollection("posts"))
         class="container grid grid-cols-1 sm:grid-cols-2 gap-8 sm:[&>*:first-child]:col-span-2"
     >
         <GlassCard data={latestPost.data} slug={latestPost.slug} />
-        <BookStat />
-        <article>
-            <div class="mockup-code">
-                <pre
-                    data-prefix="$"><code>Awaken The Monster Inside</code></pre>
-            </div>
-        </article>
+        
     </section>
 </Base>

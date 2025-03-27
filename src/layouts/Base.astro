@@ -25,9 +25,11 @@ const {
 <html lang="en">
     <Head {title} {description} {image} {frontmatter} {robots} />
     <body class="items-center relative">
-        <main class="mx-auto px-8 antialiased md:max-w-6xl grid gap-4">
+        <main class="mx-auto px-8 antialiased md:max-w-6xl grid gap-4 min-h-[90vh]">
             <Navbar />
-            <slot> Default Text</slot>
+            <div class="mt-16">
+                <slot> Awaken The Monster Inside </slot>
+            </div>
         </main>
         <Footer />
     </body>

@@ -1,7 +1,7 @@
 ---
 import Base from "./Base.astro"
 import TableOfContents from "@components/TableOfContents"
-import Title from "@components/Title"
+import TitlePost from "@components/TitlePost"
 import { Image } from "astro:assets"
 import { formatDate, slugify } from "../utils/textConverter"
 const { frontmatter, headings } = Astro.props
@@ -17,7 +17,7 @@ const { title, description, pubDate, category, image, author } = frontmatter
 >
     <article class="md:py-4 px-4 max-w-none">
         <div class="flex flex-col items-center justify-center gap-2">
-            <Title title={frontmatter.title} />
+            <TitlePost title={frontmatter.title} />
             <div class="flex text-base-content/50 items-center">
                 Published on {formatDate(pubDate)}
             </div>
