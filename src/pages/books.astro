@@ -11,23 +11,23 @@ import TitlePost from "@components/TitlePost";
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                  <th class="p-4">#</th>
-                  <th class="p-4">Book</th>
-                  <th class="p-4">Author</th>
-                  <th class="p-4">Pages</th>
-                  <th class="p-4">Status</th>
-                  <th class="p-4">Finished On</th>
+                  <th class="p-2">#</th>
+                  <th class="p-2">Book</th>
+                  <th class="p-2">Author</th>
+                  <th class="p-2">Pages</th>
+                  <th class="p-2">Status</th>
+                  <th class="p-2">Finished On</th>
                 </tr>
               </thead>
             <tbody>
               {books.slice(1).map((book, index) => (
                 <tr key={index} class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
-                  <td class="p-4">{book.No}</td>
-                  <td class="p-4">{book.Book}</td>
-                  <td class="p-4">{book.Authors}</td>
-                  <td class="p-4">{book.Pages}</td>
-                  <td class="p-4">{book.Status}</td>
-                  <td class="p-4">{book["Finished on"]}</td>
+                  <td class="p-2">{book.No}</td>
+                  <td class="p-2 font-semibold">{book.Book}</td>
+                  <td class="p-2">{book.Authors}</td>
+                  <td class="p-2">{book.Pages}</td>
+                  <td class="p-2">{book.Status}</td>
+                  <td class="p-2">{book["Finished on"]}</td>
                 </tr>
               ))}
             </tbody>

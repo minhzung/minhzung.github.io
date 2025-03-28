@@ -9,7 +9,7 @@ const imageSrc = typeof image === "string" ? image : image.src;
 <div class={`${index === 0 ? "block" : "hidden"}`} data-carousel-item>
     <img src={imageSrc} alt={title} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
     <div class="absolute bottom-0 left-0 w-full bg-gray-900/50 text-white p-4">
-        <a href={"/posts/" + slug} class="text-xl font-bold">{title}</a>
-        <p class="text-sm italic pt-3">{description}</p>
+        <a href={"/posts/" + slug} class="text-2xl font-bold">{title}</a>
+        <p class="text-sm font-serif font-light pt-3">{description}</p>
     </div>
 </div>

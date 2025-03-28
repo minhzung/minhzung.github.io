@@ -2,7 +2,7 @@
 @plugin '@tailwindcss/typography';
 @config "../../tailwind.config.js";
 @theme {
-    --font-sans: 'Literata Variable', 'sans-serif';
+    --font-serif: 'Literata Variable', 'serif';
   }
 
 /* add line numbers for code: https://github.com/shikijs/shiki/issues/3 */
