@@ -6,10 +6,10 @@ const { title, description, image, slug, index } = Astro.props;
 const imageSrc = typeof image === "string" ? image : image.src;
 ---
 
-<div class={`${index === 0 ? "block" : "hidden"} duration-700 ease-in-out`} data-carousel-item>
+<div class={`${index === 0 ? "block" : "hidden"}`} data-carousel-item>
     <img src={imageSrc} alt={title} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" />
     <div class="absolute bottom-0 left-0 w-full bg-gray-900/50 text-white p-4">
-        <a href={"/posts/" + slug} class="text-lg font-bold">{title}</a>
-        <p class="text-sm">{description}</p>
+        <a href={"/posts/" + slug} class="text-xl font-bold">{title}</a>
+        <p class="text-sm italic">{description}</p>
     </div>
 </div>
