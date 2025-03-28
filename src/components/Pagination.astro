@@ -1,26 +1,19 @@
 ---
-// component imports
-import Link from "./Link.astro"
-
-const { prevUrl, nextUrl, currentPg } = Astro.props
+const { prevUrl, nextUrl, currentPg } = Astro.props;
 ---
 
-<nav class="">
-    <div class="join flex items-center justify-center">
-        {
-            prevUrl && (
-                <a class="join-item btn btn-sm" href={prevUrl}>
-                    «
-                </a>
-            )
-        }
-        <button class="join-item btn btn-sm no-animation">{currentPg}</button>
-        {
-            nextUrl && (
-                <a class="join-item btn btn-sm" href={nextUrl}>
-                    »
-                </a>
-            )
-        }
+<nav class="flex justify-center mt-4">
+    <div class="flex items-center space-x-2">
+        {prevUrl && (
+            <a class="px-2 py-1 text-gray-700 hover:text-sky-500 hover:scale-200 transition" href={prevUrl}>
+                «
+            </a>
+        )}
+        <button class="font-mono w-8 h-8 rounded-full bg-sky-500/50">{currentPg}</button>
+        {nextUrl && (
+            <a class="px-2 py-1 text-gray-700 hover:text-sky-500 hover:scale-200 transition" href={nextUrl}>
+                »
+            </a>
+        )}
     </div>
 </nav>
