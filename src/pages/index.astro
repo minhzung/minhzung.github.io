@@ -11,7 +11,7 @@ const latestPost = (await getCollection("posts"))
 
 <Base>
     <section
-        class="container grid grid-cols-1 sm:grid-cols-2 gap-8 sm:[&>*:first-child]:col-span-2"
+        class="container mt-4 grid grid-cols-1 sm:grid-cols-2 gap-8 sm:[&>*:first-child]:col-span-2"
     >
         <Carousel data={latestPost.data} slug={latestPost.slug} />
         
