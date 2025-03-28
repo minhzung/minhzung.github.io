@@ -4,7 +4,7 @@ import { getCollection, type CollectionEntry } from "astro:content"
 // component imports
 import PostCard from "@components/PostCard"
 import Base from "@layouts/Base.astro"
-import config from "site-config.json"
+import TitlePost from "@components/TitlePost"
 
 export async function getStaticPaths() {
     const allPosts = (await getCollection("posts"))
@@ -27,12 +27,10 @@ const { posts } = Astro.props
 ---
 
 <Base>
-    <div class="text-5xl font-bold text-yellow-300 my-4">
-        {cat}
-    </div>
     <section
-        class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+    class="container mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
     >
+        <TitlePost title=`category: ${cat}` />
         {posts.map((post) => <PostCard data={post.data} slug={post.slug} />)}
     </section>
 </Base>

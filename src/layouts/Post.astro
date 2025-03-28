@@ -17,11 +17,18 @@ const { title, description, pubDate, category, image, author } = frontmatter
 >
     <article class="md:py-4 px-4 max-w-none">
         <div class="flex flex-col items-center justify-center gap-2">
-            <TitlePost title={frontmatter.title} />
-            <div class="flex text-base-content/50 items-center">
-                Published on {formatDate(pubDate)}
+            <div id="title-container" class="relative w-full">
+  
+                <div class="max-w-4xl mx-auto pt-6">
+                    <h1 class="text-4xl font-semibold text-center prose dark:prose-invert">{title}</h1>
+                </div>
+              
             </div>
-            <a href={`/category/${slugify(category)}/`} class="btn btn-outline"
+            <TitlePost title={frontmatter.title} />
+            <div class="flex items-center">
+                🖊️ {formatDate(pubDate)}
+            </div>
+            <a href={`/category/${slugify(category)}/`} class="px-2 rounded-xl bg-sky-500/50 hover:bg-sky-500 font-mono"
                 >{category}</a
             >
             <p class="md:text-base lg:text-xl font-light">
@@ -43,7 +50,7 @@ const { title, description, pubDate, category, image, author } = frontmatter
             >
                 <aside class="md:flex flex-col gap-8 hidden">
                     <div
-                        class="sticky top-24 self-start hidden md:block transition-all duration-200"
+                        class="sticky top-24 self-start hidden md:block"
                     >
                         <TableOfContents headings={headings} />
                     </div>
