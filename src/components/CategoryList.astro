@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content';
+const posts = await getCollection('posts');
+
+// Count posts per category
+const categoryCounts = posts.reduce((acc, post) => {
+  acc[post.data.category] = (acc[post.data.category] || 0) + 1;
+  return acc;
+}, {});
+---
+
+<aside class="p-4 w-full md:w-64">
+    <h2 class="text-lg font-bold mb-2 font-sans">Categories</h2>
+    <div class="flex flex-wrap gap-2 font-sans text-xs">
+      {Object.entries(categoryCounts).map(([category, count]) => (
+        <a href={`/category/${category}`} class="px-2 py-1 rounded-xl bg-sky-500/50 hover:bg-sky-500">
+          {category} [{count}]
+        </a>
+      ))}
+    </div>
+  </aside>
