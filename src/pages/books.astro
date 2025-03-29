@@ -27,14 +27,14 @@ import TitlePost from "@components/TitlePost";
                 </tr>
             </thead>
             <tbody id="booksTable">
-              {books.slice(1).map((book, index) => (
+              {books.slice(0).map((book, index) => (
                 <tr key={index} class="book-row border-b dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600 
                   odd:bg-gray-100 even:bg-white dark:odd:bg-gray-700 dark:even:bg-gray-800">
                   <td class="p-2">{book.No}</td>
                   <td class="p-2 font-semibold">{book.Book}</td>
                   <td class="p-2">{book.Authors}</td>
                   <td class="p-2">{book.Pages}</td>
-                  <td class="p-2">{book.Status}</td>
+                  <td class="p-2"><a href={book.Link}>{book.Status}</a></td>
                   <td class="p-2">{book["Finished on"]}</td>
                 </tr>
               ))}
