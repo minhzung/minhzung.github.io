@@ -2,12 +2,19 @@
 import Base from "@layouts/Base.astro";
 import books from "./books.json";
 import TitlePost from "@components/TitlePost";
-
 ---
 
 <Base>
     <TitlePost title='books' />
-    <div class="mt-16 relative overflow-x-auto shadow-md sm:rounded-lg">
+    <div class="mt-4">
+        <input 
+            type="text" 
+            id="searchInput"
+            placeholder="Search books..." 
+            class="w-full p-2 mb-4 border rounded-lg dark:bg-gray-800 dark:border-gray-600 dark:text-white"
+        />
+    </div>
+    <div class="mt-4 relative overflow-x-auto shadow-md sm:rounded-lg">
         <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
@@ -18,10 +25,11 @@ import TitlePost from "@components/TitlePost";
                   <th class="p-2">Status</th>
                   <th class="p-2">Finished On</th>
                 </tr>
-              </thead>
-            <tbody>
+            </thead>
+            <tbody id="booksTable">
               {books.slice(1).map((book, index) => (
-                <tr key={index} class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
+                <tr key={index} class="book-row border-b dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600 
+                  odd:bg-gray-100 even:bg-white dark:odd:bg-gray-700 dark:even:bg-gray-800">
                   <td class="p-2">{book.No}</td>
                   <td class="p-2 font-semibold">{book.Book}</td>
                   <td class="p-2">{book.Authors}</td>
@@ -31,6 +39,17 @@ import TitlePost from "@components/TitlePost";
                 </tr>
               ))}
             </tbody>
-          </table>
-        </div>
+        </table>
+    </div>
+
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            document.querySelectorAll('.book-row').forEach(row => {
+                const bookTitle = row.children[1].textContent.toLowerCase();
+                const authorName = row.children[2].textContent.toLowerCase();
+                row.style.display = (bookTitle.includes(query) || authorName.includes(query)) ? '' : 'none';
+            });
+        });
+    </script>
 </Base>
