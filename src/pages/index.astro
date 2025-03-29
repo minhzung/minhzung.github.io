@@ -4,6 +4,7 @@ import Carousel from "@components/Carousel"
 
 import Base from "@layouts/Base.astro"
 import CategoryList from "@components/CategoryList"
+import RandomQuote from "@components/RandomQuote"
 
 const latestPost = (await getCollection("posts"))
     .filter((post) => !post.data.draft)
@@ -15,7 +16,8 @@ const latestPost = (await getCollection("posts"))
         <div class="mb-8">
             <Carousel data={latestPost.data} slug={latestPost.slug} />
         </div>
-        <div class="flex justify-end">
+        <div class="flex gap-4 justify-between">
+            <RandomQuote />
             <CategoryList />
         </div>
     </section>
