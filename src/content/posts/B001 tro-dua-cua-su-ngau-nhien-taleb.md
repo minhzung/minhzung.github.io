@@ -182,4 +182,4 @@ Họ giao dịch dựa trên những **ý tưởng** rút ra từ các quan sát
 
 Trả lời cho câu hỏi ở Chương 6 của tôi. Không sử dụng lịch sử quá khứ vừa để đặt cược vừa để đo lường rủi ro.
 
-Kết thúc phần I của cuốn sách, tôi sẽ tách ghi chú cho [`phần 2 và phần 3`](./b001-tro-dua-cua-su-ngau-nhien-taleb-p2) ở một bài viết khác.
+Kết thúc phần I của cuốn sách, tôi sẽ tách ghi chú cho [`phần 2`](./b001-tro-dua-cua-su-ngau-nhien-taleb-p2) ở một bài viết khác.
