@@ -23,9 +23,9 @@ function buildToc(headings) {
 }
 ---
 
-<nav class="toc">
+<nav class="toc bg-white/20 p-2 rounded-lg">
     <h2 class="font-bold mb-3 text-xl">Contents</h2>
-    <ul class="md:text-sm lg:text-base text-base-content/50">
+    <ul class="text-sm">
         {toc.map((heading) => <TableOfContentsHeading heading={heading} />)}
     </ul>
 </nav>
