@@ -1,18 +1,21 @@
 ---
-const fetchQuote = async () => {
-  try {
-    const response = await fetch('https://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en');
-    const data = await response.json();
-    return { text: data.quoteText, author: data.quoteAuthor || 'Unknown' };
-  } catch (error) {
-    return { text: 'Failed to load quote.', author: 'Unknown' };
-  }
-};
-
-const quote = await fetchQuote();
 ---
-
-<div class="p-4 w-full rounded-xl bg-white/20 backdrop-blur-md">
-  <p class="font-serif font-light italic">"{quote.text}"</p>
-  <p class="mt-2 font-semibold">- {quote.author}</p>
+<div class="p-4 w-full rounded-xl bg-white/20 backdrop-blur-md" id="quote-box">
+  <p id="quote-text" class="font-serif font-light italic">"Loading..."</p>
+  <p id="quote-author" class="mt-2 font-semibold">- </p>
 </div>
+
+<script>
+  fetch('https://zenquotes.io/api/random')
+    .then(res => res.json())
+    .then(data => {
+      const quote = data[0].q;
+      const author = data[0].a;
+      document.getElementById('quote-text').textContent = `"${quote}"`;
+      document.getElementById('quote-author').textContent = `- ${author}`;
+    })
+    .catch(() => {
+      document.getElementById('quote-text').textContent = '"Failed to load quote."';
+      document.getElementById('quote-author').textContent = '- Unknown';
+    });
+</script>
