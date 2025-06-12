@@ -152,12 +152,8 @@ thân vào một cuộc chiến tranh tấn công còn hơn là đợi đến kh
 
 > Để chắc chắn, người Thổ Nhĩ Kỳ đã thay đổi kiểu cách trang phục của họ kể từ sau Thế chiến thứ Nhất sao cho ngày càng phù hợp với các tiêu chí phương Tây, y như người Nhật Bản đã làm sau cuộc Duy tân Minh Trị
 
+> Israel – tuyên bố Jerusalem là thủ đô của họ – bị đe dọa từ mọi phía bởi các lực lượng Hồi giáo: Hamas tại các lãnh thổ bị chiếm đóng ở Gaza (mà nay nó đang kiểm soát), lực lượng bờ Tây sông Jordan, Herbollah tại nước Lebanon láng giềng, Iran về phía Đông, kể cả Ả-rập Saudi. Tại Ai Cập và Syria, người Israel chứng kiến người Hồi giáo xâm lấn chống lại các chính phủ thế tục. Thậm chí nước Thổ Nhĩ Kỳ anh em truyền thống giờ đây đang dịch chuyển về phía thân Hồi giáo và chống chủ nghĩa phục quốc Do Thái, với một chính sách ngoại giao Tân-Ottoman đang hình thành
 
-### Page 153 @ 19 June 2022 04:33 PM
-*Israel – tuyên bố Jerusalem là thủ đô của họ[136] – bị đe dọa từ mọi phía bởi các lực lượng Hồi giáo: Hamas tại các lãnh thổ bị chiếm đóng ở Gaza (mà nay nó đang kiểm soát), lực lượng bờ Tây sông Jordan, Herbollah tại nước Lebanon láng giềng, Iran về phía Đông, kể cả Ả-rập Saudi. Tại Ai Cập và Syria, người Israel chứng kiến người Hồi giáo xâm lấn chống lại các chính phủ thế tục. Thậm chí nước Thổ Nhĩ Kỳ anh em truyền thống giờ đây đang dịch chuyển về phía thân Hồi giáo và chống chủ nghĩa phục quốc Do Thái, với một chính sách ngoại giao Tân-Ottoman đang hình thành*
-
----
-to recheck
 
 ## Tân thế giới
 ### Page 158 @ 19 June 2022 04:37 PM
